@@ -1,0 +1,18 @@
+{
+"name": "Quantum Encryption",
+"description": "Runs a sequence of logic instructions in a loop via quantum entanglement using qubits instead of bits. Entangles two quantum worlds.",
+"type": "LogicBlock",
+"health": 3200,
+"size": 1,
+"instructionsPerTick": 100,
+"range": 1000,
+"consumes": {
+  "power": 2
+}
+"requirements": [
+  {"item":"lead","amount":100},
+  {"item":"silicon","amount":100},
+  {"item":"Quantum-World","amount":2}
+],
+"category": "logic"
+}

@@ -1,0 +1,31 @@
+{
+  "type": "PowerTurret",
+  "name": "Deep scanner",
+  "description": "Scans a wide field of view.",
+  "size": 2,
+  "heatColor": "A9D8FFFF",
+  "health": 500,
+  "targetAir": true,
+  "targetGround": true,
+  "reload": 0,
+  "range": 6000,
+  "inaccuracy": 0,
+  "recoil": 2.7,
+  "damage": 0,
+  "rotateSpeed": 10,
+  "shootType":  {
+    "type": "BasicBulletType",
+    "speed": 0
+				},
+  "shootSound": "laser",
+  "consumes": {
+    "power": 12
+  },
+  "hasPower": true,
+  "requirements": [
+  {"item":"graphite","amount":100},
+  {"item":"silicon","amount":200},
+  {"item":"copper","amount":300}
+  ],
+  "category": "turret"
+}

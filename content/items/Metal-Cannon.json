@@ -1,0 +1,10 @@
+{
+  "type": "item",
+  "name": "Metal-Cannon",
+  "localizedName": "Metal Cannon",
+  "description": "A metallic sphere fused bhy several metal alloys extracted from slag.",
+  "color": "#ff5500",
+  "flammability":0.0,
+  "explosiveness":0.0,
+  "charge":0.0
+}

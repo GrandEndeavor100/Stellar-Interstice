@@ -1,0 +1,44 @@
+{
+  "type": "GenericCrafter",
+  "name": "Spore-Energizer",
+  "description": "Spore flux doped with pyratite powder converts it to spore slag.",
+  "outputLiquid": {
+    "liquid": "liquid-spore-slag",
+    "amount": 0.4
+  },
+  "health": 600,
+  "itemCapacity": 40,
+  "liquidCapacity": 70,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 4.8,
+	"liquid": {
+            "liquid": "liquid-spore-flux",
+            "amount": 0.5
+        }
+  },
+  "requirements": [
+
+    {
+      "item": "graphite",
+      "amount": 150
+    },
+    {
+      "item": "silicon",
+      "amount": 78
+    },
+    {
+      "item": "titanium",
+      "amount": 150
+    },
+	{
+      "item": "pyratite",
+      "amount": 60
+	}
+  ],
+  "category": "crafting"
+}

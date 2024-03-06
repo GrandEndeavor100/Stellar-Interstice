@@ -1,0 +1,22 @@
+{
+    "type": "BaseShield",
+    "name": "Stasis Domain",
+    "description": "Creates a domain field that induces a square restriction that prevents the vectorial motion of any object incident on the circle.",
+	"rebuildable":true,
+    "size": 3,
+	"smoothRadius":120,
+	"sides":4,
+	"rotate":45,
+	"radius":140,
+    "health": 800,
+    "requirements": [
+        {"item": "Cryo-Orb", "amount": 300},
+        {"item": "silicon", "amount": 200},
+	      {"item": "Plasma-Orb", "amount": 100},
+	      {"item": "Spatial-Fabric", "amount": 60}
+    ],
+    "consumes": {
+		  "power": 5
+	  },
+	      "category": "effect"
+}

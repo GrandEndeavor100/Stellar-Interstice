@@ -1,0 +1,34 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Spore Bomb",
+	"description": "A detonator composed of sporepods. Used to decimate a small area.",
+	"size": 2,
+	"explosionShake":6,
+	"explosionRadius": 100,
+	"explosionDamage": 80,
+	"itemCapacity": 10,
+	"consumes": {
+	 "items": {
+	  "items":  [
+	  {
+		  "item": "spore-pod",
+		"amount": 4}
+	  ]
+	 }
+	},
+	"requirements": [
+	{
+		  "item": "graphite",
+		  "amount": 10
+		},
+		{
+		  "item": "lead",
+		  "amount": 16
+		},
+		{
+		  "item": "spore-pod",
+		  "amount": 60
+		}
+	  ],
+	"category": "power"
+}

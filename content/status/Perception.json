@@ -1,0 +1,7 @@
+{
+  "name": "Perception",
+  "description":"A change in perspective can sometime alter the very state of being",
+  "speedMultiplier": 2.0,
+  "damageMultiplier":0.5,
+  "effect": "none"
+}

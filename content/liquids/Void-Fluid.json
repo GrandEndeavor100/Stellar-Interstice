@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "localizedName": "Void-Fluid",
+  "description": "A consciousness that flows the void spaces between realms. Such spaces are accessed using quantum-worlds.",
+  "flammability": 0.0,
+  "explosiveness": 80.0,
+  "color": "#5b1cec",
+  "heatCapacity": 0.0,
+  "maxSpread": 0,
+  "viscosity": 0,
+  "lightColor": "#5b1cec"
+}

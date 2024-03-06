@@ -1,0 +1,7 @@
+{
+  "name": "False Algorithm",
+  "description":"Hacks into the system of the target and creates a false algorithm which prohibits the target from contructing buildings.",
+  "buildSpeedMultiplier": 0.0,
+  "mineSpeedMultiplier":0.0
+  "effect": "none"
+}

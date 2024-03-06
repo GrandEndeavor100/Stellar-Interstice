@@ -1,0 +1,27 @@
+{
+"localizedName": "Scatter Silo",
+"description": "A player-activatable block that scatters bullets everywhere upon use.",
+
+"category": "turret",
+"size": 2,
+"health":2000,
+"range":30,
+"update": "true",
+"solid": "true",
+"hasItems": "true",
+"configurable": "true",
+"ammoTypes": {
+		"Plasma-Orb": {
+			"speed": 8.6,
+			"damage": 0.3,
+			"knockback":1,
+			"width": 7,
+			"height": 9,
+			"shootEffect": "explosion",
+			"ammoMultiplier": 1,
+		}
+	},
+"requirements": [ {"item":"graphite","amount":76},
+                {"item":"titanium","amount":20} 
+				]
+}

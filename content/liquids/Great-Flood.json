@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "localizedName": "Great-Flood",
+  "description": "Recent archaeological evidences suggests the transpiration of a Great Flood that engulfed Serpulo. Several anachronistic records and data packs indicate the arrival of this apocalypse on the advanced extreme civilizations which they underestimated and therefore led to their demise. These data setsindicates the flood water to be somewhat strange as it had self-replication property almost as if it were sentient",
+  "flammability": 0.0,
+  "explosiveness": 0.0,
+  "color": "#020728",
+  "heatCapacity": 0.4,
+  "maxSpread": 0.4,
+  "viscosity": 2.0,
+  "lightColor": "#020728"
+}

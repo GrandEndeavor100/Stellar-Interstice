@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "localizedName": "Spore-Frost",
+  "description": "Frozen version of spore having mixed with cryo-orbs. Has very low flammability.",
+  "flammability": -10.0,
+  "explosiveness": 0.0,
+  "color": "#3c00fa",
+  "heatCapacity": 0.0,
+  "maxSpread": 0.4,
+  "viscosity": 0,
+  "lightColor": "#2d81ab"
+}

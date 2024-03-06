@@ -1,0 +1,11 @@
+{
+  "type": "item",
+  "name": "Quantum World",
+  "localizedName": "Quantum World",
+  "description": "Accelerating a mixture of many particles at high velocity in the presence of a deep energy field happening in an unknown external dimension produces this relic of the quantum world.",
+  "color": "#ff5500",
+  "flammability":0.0,
+  "explosiveness":0.0,
+  "temperature":0,
+  "charge":60.0
+}

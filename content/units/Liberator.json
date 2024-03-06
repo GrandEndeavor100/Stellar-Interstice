@@ -1,0 +1,31 @@
+{
+  "type": "flying",
+  "name": "[green]Liberator;",
+  "description": "A  End-level missile device with a controllable guided system offering an anti-matter explosive payload.",
+  "speed": 3,
+  "flying": true,
+  "health": 600,
+  "armor": 2,
+  "engineOffset": 5.5,
+  "weapons": [
+    {
+      "name": "Detonator",
+      "reload": 24,
+	  "shootOnDeath ":true,
+      "shootSound": "explosion",
+      "bullet": {
+		"collidesTiles":false,
+		"collides":false,
+		"hitSound":"explosion",
+		"rangeOverride": 300,
+		"speed":0,
+        "splashDamageRadius":550,
+        "instantDisappear":true,
+        "splashDamage": 600,
+        "killShooter":true,
+        "hittable":false,
+	  "collidesAir":true}
+	}
+        ],
+  "hitSize": 6
+}

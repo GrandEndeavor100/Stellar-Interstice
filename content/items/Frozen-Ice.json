@@ -1,0 +1,11 @@
+{
+  "type": "item",
+  "name": "Frozen-Ice",
+  "localizedName": "Frozen Ice",
+  "description": "Frozen version of water created via deep freezing.",
+  "color": "#ff5500",
+  "flammability":-10.0,
+  "explosiveness":0.0,
+  "temperature":-4.0,
+  "charge":0.0
+}

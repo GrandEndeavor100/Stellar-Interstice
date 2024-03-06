@@ -1,0 +1,13 @@
+{
+    "type": "ArmoredConveyor",
+	"name":"Armored Conveyor",
+	"description":"A heavily armored conveyor",
+    "category": "distribution",
+    "health": 400,
+    "speed": 0.03,
+    "research": "conveyor",
+    "requirements": [
+        { "item": "titanium", "amount": 2 },
+        { "item": "copper", "amount": 4 }
+    ]
+}

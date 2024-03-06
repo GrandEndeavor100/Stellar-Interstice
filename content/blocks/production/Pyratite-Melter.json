@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Pyratite-Melter",
+  "description": "Depressurizes pyratite to form pure slag.",
+  "outputLiquid": {
+    "liquid": "slag",
+    "amount": 0.4
+  },
+  "health": 600,
+  "itemCapacity": 40,
+  "liquidCapacity": 70,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 1.6,
+    "items": {
+      "items": [
+        {
+          "item": "pyratite",
+          "amount": 4
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "graphite",
+      "amount": 100
+    },
+    {
+      "item": "silicon",
+      "amount": 75
+    },
+    {
+      "item": "titanium",
+      "amount": 100
+    },
+	{
+      "item": "pyratite",
+      "amount": 30
+    }
+  ],
+  "category": "crafting"
+}

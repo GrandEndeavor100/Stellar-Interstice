@@ -1,0 +1,18 @@
+{
+"name": "Cloud",
+"description": "A drive to store important algorithms and logic instructions.",
+"type": "LogicBlock",
+"health":6000 ,
+"size": 3,
+"instructionsPerTick": 0,
+"range": 1000,
+"consumes": {
+  "power": 2
+}
+"requirements": [
+  {"item":"lead","amount":10},
+  {"item":"silicon","amount":10},
+  {"item":"titanium","amount":20}
+],
+"category": "logic"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "flying",
+  "name": "[orange]Photon Messenger",
+  "description": "A messenger drone that doesn't pose any threat to the enemy but is exremely fast and can cause massive disruptions.",
+  "speed": 20,
+  "flying": true,
+  "health": 600,
+  "armor": 1,
+  "engineOffset": 5.5,
+  "hitSize": 1
+}

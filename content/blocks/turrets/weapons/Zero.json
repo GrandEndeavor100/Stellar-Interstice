@@ -1,0 +1,15 @@
+{
+	"type": "PowerVoid",
+	"name": "Zero",
+  "description": "A resistor that completely inhibit the flow of charge for all connected systems.",
+	"size": 2,
+	"health": 2000,
+	"category": "power",
+	"requirements": [
+		{"item": "lead", "amount": 10},
+		{"item": "silicon", "amount": 20},
+		{"item": "Plasma-Orb", "amount": 10},
+		{"item": "Quantum-World", "amount": 6}
+	],
+	"consumes": { "powerBuffered": 200000 }
+}

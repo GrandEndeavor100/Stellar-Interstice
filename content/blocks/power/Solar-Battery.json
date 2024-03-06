@@ -1,0 +1,28 @@
+{
+	"type": "SolarGenerator",
+	"name": "Stellar Core",
+	"description":"An artifical mini core of energy source replicated from the fusion in stellar ineriors.",
+	"size": 2,
+	"healt":140,
+	"powerProduction": 20,
+	"powerBuffered":6000,
+	"requirements": [
+	{
+		  "item": "copper",
+		  "amount": 10
+		},
+		{
+		  "item": "lead",
+		  "amount": 20
+		},
+		{
+		  "item": "Cryo-Orb",
+		  "amount": 24
+		},
+		{
+		  "item": "Anti-matter",
+		  "amount": 12
+		}
+	  ],
+	"category": "power"
+}

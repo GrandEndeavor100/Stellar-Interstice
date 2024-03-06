@@ -1,0 +1,25 @@
+{
+  "type": "PowerNode",
+  "name": "Advanced Spore Network",
+  "description": "Multiple power network connections can be established using this node. Now possessing a greater range but fewer connections. ",
+  "size": 2,
+  "health": 600,
+  "laserRange": 40,
+  "maxNodes": 4,
+  "requirements": [
+    {
+      "item": "spore-pod",
+      "amount": 100
+    },
+	{
+      "item": "lead",
+      "amount": 100
+    }
+  ],
+  "category": "power",
+  "research": "beam-node",
+  "powerCapacity": 1200,
+  "laserColor1": "0e862f",
+  "laserColor2": "0e862f",
+  "laserScale": 0.6
+}

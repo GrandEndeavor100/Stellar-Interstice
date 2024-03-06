@@ -1,0 +1,8 @@
+{
+  "name": "Frozen Time",
+  "description":"Creates a region of temporal suspension",
+  "speedMultiplier": 0.0,
+  "damageMultiplier": 0.0,
+  "reloadMultiplier": 0.0,
+  "effect": "none"
+}

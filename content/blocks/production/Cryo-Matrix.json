@@ -1,0 +1,46 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Cryo-Matrix",
+    "description": "Gelatinizes cryofluid and shaped to spherical Cryo-Orbs.",
+    "health": 960,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier": 0.6,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Cryo-Orb",
+        "amount": 4
+    },
+    "consumes": {
+        "power": 3.2,
+        "liquid": {
+            "liquid": "cryofluid",
+            "amount": 0.5
+        }
+    },
+    "requirements": [
+        {
+            "item": "silicon",
+            "amount": 90
+        },
+        {
+            "item": "titanium",
+            "amount": 150
+        },
+        {
+            "item": "graphite",
+            "amount": 65
+        },
+        {
+            "item": "metaglass",
+            "amount": 100
+        }
+    ],
+    "category": "crafting"
+}

@@ -1,0 +1,25 @@
+{
+  "type": "PowerNode",
+  "name": "Spore Network",
+  "description": "Multiple power network connections can be established using this node. ",
+  "size": 1,
+  "health": 300,
+  "laserRange": 20,
+  "maxNodes": 8,
+  "requirements": [
+    {
+      "item": "spore-pod",
+      "amount": 10
+    },
+	{
+      "item": "lead",
+      "amount": 10
+    }
+  ],
+  "category": "power",
+  "research": "beam-node",
+  "powerCapacity": 600,
+  "laserColor1": "0e862f",
+  "laserColor2": "0e862f",
+  "laserScale": 0.6
+}

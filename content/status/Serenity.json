@@ -1,0 +1,7 @@
+{
+  "name": "Serenity",
+  "description":"Existing in a serene state one becomes oblivious to its surroundings.",
+  "reloadMultiplier": 0.0,
+  "healthMultiplier":0.5,
+  "effect": "none"
+}

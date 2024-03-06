@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Metal-Extractor",
+  "description": "Extracts metals from slag and shapes them into metallic spheres.",
+  "outputItem": {
+    "item": "Metal-Cannon",
+    "amount": 2
+  },
+  "health": 800,
+  "itemCapacity": 40,
+  "liquidCapacity": 60,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power":0.6 ,
+    "liquid": {
+            "liquid": "slag",
+            "amount": 0.6
+        }
+  },
+  "requirements": [
+
+    {
+      "item": "graphite",
+      "amount": 100
+    },
+    {
+      "item": "lead",
+      "amount": 75
+    },
+    {
+      "item": "copper",
+      "amount": 100
+    }
+  ],
+  "category": "crafting"
+}

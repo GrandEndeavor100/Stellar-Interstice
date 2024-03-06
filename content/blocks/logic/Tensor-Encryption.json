@@ -1,0 +1,15 @@
+{
+"name": "Tensor Encryption",
+"description": "Runs a sequence of logic instructions in a loop with tremendous accuracy. Can be used to control units and buildings.",
+"type": "LogicBlock",
+"health": 800,
+"size": 1,
+"instructionsPerTick": 40,
+"range": 320,
+"requirements": [
+  {"item":"lead","amount":20},
+  {"item":"silicon","amount":10},
+  {"item":"sand","amount":20}
+],
+"category": "logic"
+}

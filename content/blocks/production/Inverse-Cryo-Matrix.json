@@ -1,0 +1,48 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Inverse-Cryo-Matrix",
+    "description": "Liquifies Cryo-Orb to cryofluid",
+    "health": 960,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier": 0.6,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputLiquid": {
+        "liquid": "cryofluid",
+        "amount": 0.5
+    },
+    "consumes": {
+	 "items": {
+	  "items":  [
+	  {
+		  "item": "Cryo-Orb",
+		"amount": 4}
+	  ]
+	 }
+	},
+    "requirements": [
+        {
+            "item": "pyratite",
+            "amount": 6
+        },
+        {
+            "item": "titanium",
+            "amount": 150
+        },
+        {
+            "item": "graphite",
+            "amount": 65
+        },
+        {
+            "item": "metaglass",
+            "amount": 100
+        }
+    ],
+    "category": "crafting"
+}

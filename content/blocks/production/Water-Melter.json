@@ -1,0 +1,44 @@
+{
+  "type": "GenericCrafter",
+  "name": "Water-Liquifier",
+  "description": "Melts ice to form water.",
+  "outputLiquid": {
+    "liquid": "water",
+    "amount": 0.8
+  },
+  "health": 600,
+  "itemCapacity": 40,
+  "liquidCapacity": 70,
+  "size": 2,
+  "craftTime": 30,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 1.6,
+    "items": {
+      "items": [
+        {
+          "item": "Frozen-Ice",
+          "amount": 2
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "copper",
+      "amount": 30
+    },
+    {
+      "item": "lead",
+      "amount": 16
+    },
+    {
+      "item": "graphite",
+      "amount": 20
+    }
+  ],
+  "category": "crafting"
+}

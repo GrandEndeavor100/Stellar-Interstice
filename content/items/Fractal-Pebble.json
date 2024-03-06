@@ -1,0 +1,10 @@
+{
+  "type": "item",
+  "name": "Fractal Pebble",
+  "localizedName": "Fractal Pebble",
+  "description": "A confinement of infinite fractals.",
+  "color": "#ff5500",
+  "flammability":0.0,
+  "explosiveness":10.0,
+  "charge":10.0
+}

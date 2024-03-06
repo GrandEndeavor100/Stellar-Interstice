@@ -1,0 +1,11 @@
+{
+  "type": "flying",
+  "name": "[gold]Circle of Life",
+  "description": "A fast mobile megastruture that is capable of sustaining tremendous damage. Can act as a mobile barrier against enemy attacks.",
+  "speed": 8,
+  "flying": true,
+  "health": 100000,
+  "armor": 10,
+  "engineOffset": 5.5,
+  "hitSize": 8
+}

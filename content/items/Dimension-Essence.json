@@ -1,0 +1,10 @@
+{
+  "type": "item",
+  "name": "Dimension Essence",
+  "localizedName": "Dimension Essence",
+  "description": "An essence which was revealed to those who seeked the One.",
+  "color": "#194e70",
+  "flammability":0.0,
+  "explosiveness":0.0,
+  "charge":10000.0
+}

@@ -1,0 +1,52 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Quantum Accelerator",
+    "description": "Accelerates particles from an unknown dimension to obtain quantum world. Requires Cryo-Orb to cool down.",
+    "health": 2400,
+    "size": 4,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 874,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier":0.6,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Quantum-World",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 100,
+        "items": {
+	  "items":  [
+	  {
+		  "item": "Cryo-Orb",
+		"amount": 4}
+	  ]
+	 }
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 2000
+        },
+        {
+            "item": "lead",
+            "amount": 1600
+        },
+        {
+            "item": "graphite",
+            "amount": 1600
+        },
+        {
+            "item": "silicon",
+		"amount": 1800},
+		{"item":"Cryo-Orb","amount":100},
+		{"item":"thorium","amount":100},
+		{"item":"titanium","amount":800},
+		{"item":"plastanium","amount":600},
+		{"item":"surge-alloy","amount":100}
+    ],
+    "category": "crafting"
+}

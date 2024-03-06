@@ -1,0 +1,43 @@
+{
+	"type": "ItemTurret",
+	"name": "Anti Segment",
+	"description": "Perform precise volley of firings which demands the full attention of a segment.",
+	"health":1200,
+	"targetAir": true,
+	"targetGround": true,
+	"size": 2,
+	"inaccuracy": 0,
+	"reload": 0,
+	"shootCone": 20,
+	"rotateSpeed": 22,
+	"range": 200,
+	"ammoTypes": {
+		"Plasma-Orb": {
+			"speed":40,
+			"damage": 1,
+			"width": 7,
+			"height": 9,
+			"shootEffect": "explosion",
+			"ammoMultiplier": 4,
+		}
+	}
+	"requirements": [
+        {
+            "item": "copper",
+            "amount": 40
+        },
+		{
+            "item": "lead",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 20
+        },
+        {
+            "item": "Cryo-Orb",
+            "amount": 10
+        }
+    ],
+	"category": "turret"
+}

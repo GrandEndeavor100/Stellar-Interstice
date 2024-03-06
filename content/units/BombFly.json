@@ -1,0 +1,31 @@
+{
+  "type": "flying",
+  "name": "[orange]BombFly;",
+  "description": "A miniature drone missiles system that encapsulates a small explosive payload. When assimilated in swarms, deals a powerful force.",
+  "speed": 3,
+  "flying": true,
+  "health": 150,
+  "armor": 1,
+  "engineOffset": 5.5,
+  "weapons": [
+    {
+      "name": "Detonator",
+      "reload": 24,
+	  "shootOnDeath ":true,
+      "shootSound": "explosion",
+      "bullet": {
+		"collidesTiles":false,
+		"collides":false,
+		"hitSound":"explosion",
+		"rangeOverride": 30,
+		"speed":0,
+        "splashDamageRadius":55,
+        "instantDisappear":true,
+        "splashDamage": 90,
+        "killShooter":true,
+        "hittable":false,
+	  "collidesAir":true}
+	}
+        ],
+  "hitSize": 6
+}

@@ -1,0 +1,46 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Deep-Freezer",
+    "description": "Freezes water to form frozen ice.",
+    "health": 960,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier": 0.6,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Frozen-Ice",
+        "amount": 6
+    },
+    "consumes": {
+        "power": 0.6,
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.4
+        }
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 30
+        },
+        {
+            "item": "lead",
+            "amount": 15
+        },
+        {
+            "item": "graphite",
+            "amount": 30
+        },
+        {
+            "item": "silicon",
+            "amount": 10
+        }
+    ],
+    "category": "crafting"
+}

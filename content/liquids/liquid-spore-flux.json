@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "localizedName": "Spore-Flux",
+  "description": "Liquified version of spore which retains some of its resistive organic properties. Has very low flammability.",
+  "flammability": 10.0,
+  "explosiveness": 0.0,
+  "color": "#3c00fa",
+  "heatCapacity": 0.4,
+  "maxSpread": 0.4,
+  "viscosity": 0,
+  "lightColor": "#3c00fa"
+}

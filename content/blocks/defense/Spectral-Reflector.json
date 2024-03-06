@@ -1,0 +1,35 @@
+{
+  "name": "Spectral-Reflector",
+  "description": "Relfects dicrete energy packets incident on it. The trajectory of the reflected packet follows the laws of optical reflection. Creates an optical magnification illusion for its immediate locality.",
+  "type": "Wall",
+  "insulated": false,
+  "absorbLasers": false,
+  "flashHit": true,
+  "chanceDeflect":780,
+  "health": 2000,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "titanium","amount": 100
+      
+    },
+	 {
+      "item": "phase-fabric","amount": 34
+      
+    },
+	{
+      "item": "Plasma-Orb","amount": 100
+      
+    },
+	{
+      "item": "copper","amount": 30
+      
+    },
+	{
+      "item": "thorium","amount": 20
+      
+    }
+	
+  ]
+  "category":"defense"
+ }

@@ -1,0 +1,7 @@
+{
+  "name": "Paradox",
+  "description":"To understand one might need to overcome several paradoxes.",
+  "reloadMultiplier": 2.0,
+  "damageMultiplier":0.5,
+  "effect": "shieldBreak"
+}

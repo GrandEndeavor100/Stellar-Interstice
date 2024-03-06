@@ -1,0 +1,31 @@
+{
+  "type": "flying",
+  "name": "[green]Suppressor;",
+  "description": "A medium-level guided missile system. Possess turbo boosters that increases its speed by a lot.",
+  "speed":6,
+  "flying": true,
+  "health": 200,
+  "armor": 1,
+  "engineOffset": 5.5,
+  "weapons": [
+    {
+      "name": "Detonator",
+      "reload": 24,
+	  "shootOnDeath ":true,
+      "shootSound": "explosion",
+      "bullet": {
+		"collidesTiles":false,
+		"collides":false,
+		"hitSound":"explosion",
+		"rangeOverride": 300,
+		"speed":0,
+        "splashDamageRadius":300,
+        "instantDisappear":true,
+        "splashDamage": 400,
+        "killShooter":true,
+        "hittable":false,
+	  "collidesAir":true}
+	}
+        ],
+  "hitSize": 4
+}

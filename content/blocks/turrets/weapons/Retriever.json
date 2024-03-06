@@ -1,0 +1,25 @@
+{
+  "type": "TractorBeamTurret",
+  "name": "Retriever",
+  "description": "An advanced attractor beam that captures units.",
+  "size": 2,
+  "force": 800,
+  "targetAir": true,
+  "targetGround": true,
+  "scaledForce": 800,
+  "health": 780,
+  "range": 500,
+  "damage": 0.0,
+  "status": "Paradox",
+  "rotateSpeed": 15,
+  "hasPower": true,
+  "consumes": {
+    "power": 4
+  },
+  "requirements": [
+  {"item":"graphite","amount":100},
+  {"item":"silicon","amount":120},
+  {"item":"titanium","amount":80}
+  ],
+  "category": "turret"
+}

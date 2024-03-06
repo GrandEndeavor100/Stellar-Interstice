@@ -1,0 +1,29 @@
+{
+	"type": "ImpactReactor",
+	"name": "Resistor C",
+	"description":"A resistor that resists the flow of charge and decrease the units by 100-fold. The C is roman numeral for 100.",
+	"size": 2,
+	"health":780,
+	"itemCapacity": 10,
+	"powerProduction": 0,
+    "itemDuration": 200,
+
+	"consumes": {
+		"power":10
+	},
+	"requirements": [
+	{
+		  "item": "copper",
+		  "amount": 10
+		},
+		{
+		  "item": "lead",
+		  "amount": 18
+		},
+		{
+		  "item": "silicon",
+		  "amount": 20
+		}
+	  ],
+	"category": "power"
+}

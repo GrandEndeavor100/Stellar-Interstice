@@ -1,0 +1,25 @@
+{
+  "type": "TractorBeamTurret",
+  "name": "Retractor",
+  "description": "A tractor beam used to retract units.",
+  "size": 2,
+  "force": 400,
+  "targetAir": true,
+  "targetGround": true,
+  "scaledForce": 400,
+  "health": 780,
+  "range": 256,
+  "damage": 0.0,
+  "status": "hackeffect",
+  "rotateSpeed": 15,
+  "hasPower": true,
+  "consumes": {
+    "power": 4
+  },
+  "requirements": [
+  {"item":"graphite","amount":20},
+  {"item":"silicon","amount":20},
+  {"item":"titanium","amount":30}
+  ],
+  "category": "turret"
+}

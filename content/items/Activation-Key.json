@@ -1,0 +1,11 @@
+{
+  "type": "item",
+  "name": "Activation Key",
+  "localizedName": "Activation Key",
+  "description": "A key used to activate the Trigger.",
+  "color": "#ff5500",
+  "flammability":0.0,
+  "explosiveness":0.0,
+  "temperature":0,
+  "charge":6.0
+}

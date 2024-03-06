@@ -1,0 +1,37 @@
+{	
+    "type": "SolidPump",
+    "name": "Void Extractor",
+    "description": " Creates paths that connects to the subspace dimensions in the physical plane allowing the entry of fluid that flows between realms.",
+    "health": 600,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "liquidCapacity": 60,
+	"pumpAmount": 0.16,
+	"rotateSpeed": 1.6,
+	"result": "Void-Fluid",
+	"baseEfficiency": 0.64,
+	"attribute": "heat",
+    "consumes": {
+        "power": 2.6
+    },
+    "requirements": [
+        {
+            "item": "Frozen-Ice",
+            "amount": 10
+        },
+        {
+            "item": "metaglass",
+            "amount": 60
+        },
+        {
+            "item": "Quantum-World",
+            "amount": 20
+        },
+        {
+            "item": "silicon",
+            "amount": 18
+        }
+    ],
+    "category": "production"
+}

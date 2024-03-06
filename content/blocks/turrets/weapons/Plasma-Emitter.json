@@ -1,0 +1,45 @@
+{
+	"type": "ItemTurret",
+	"name": "Plasma Emitter",
+	"description": "Proliferates plasma orbs at high velocity. Has a self-inducing perturbation that perpetuates over large distances outlasting its physical range.",
+	"health":1000,
+	"targetAir": true,
+	"targetGround": true,
+	"size": 3,
+	"inaccuracy": 2,
+	"reload": 100,
+	"shootCone": 20,
+	"rotateSpeed": 22,
+	"range": 162,
+	"ammoTypes": {
+		"Plasma-Orb": {
+			"speed": 4.2,
+			"damage": 160,
+			"width": 7,
+			"height": 9,
+			"shootEffect": "explosion",
+			"status":"Blue-Flame",
+			"lifetime":400,
+			"ammoMultiplier": 1
+		}
+	}
+	"requirements": [
+        {
+            "item": "copper",
+            "amount": 40
+        },
+		{
+            "item": "lead",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 20
+        },
+        {
+            "item": "Cryo-Orb",
+            "amount": 10
+        }
+    ],
+	"category": "turret"
+}

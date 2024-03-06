@@ -1,0 +1,50 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Matter Inverser",
+    "description": "Accelerates particles in high energy field to obtain their inverse counterparts called anti-matter. Requires Cryo-Orb to cool down.",
+    "health": 2018,
+    "size": 4,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 780,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier":0.6,
+    "craftEffect": "formsmoke",
+    "outputItem": {
+        "item": "Anti-matter",
+        "amount": 2
+    },
+    "consumes": {
+        "power": 90,
+        "items": {
+	  "items":  [
+	  {
+		  "item": "Cryo-Orb",
+		"amount": 4}
+	  ]
+	 }
+        },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 2017
+        },
+        {
+            "item": "lead",
+            "amount": 1929
+        },
+        {
+            "item": "graphite",
+            "amount": 1928
+        },
+        {
+            "item": "silicon",
+		"amount": 1880},
+		{"item":"Cryo-Orb","amount":200},
+		{"item":"thorium","amount":80},
+		{"item":"plastanium","amount":600},
+		{"item":"surge-alloy","amount":100}
+    ],
+    "category": "crafting"
+}

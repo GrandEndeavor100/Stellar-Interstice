@@ -1,0 +1,29 @@
+{
+	"type": "ImpactReactor",
+	"name": "Power Amplifier",
+	"description":"An amplifier that has an output gain of 2 which means it produces twice the power of its input. ",
+	"size": 2,
+	"health":780,
+	"itemCapacity": 10,
+	"powerProduction": 20,
+    "itemDuration": 200,
+
+	"consumes": {
+		"power":10
+	},
+	"requirements": [
+	{
+		  "item": "copper",
+		  "amount": 18
+		},
+		{
+		  "item": "lead",
+		  "amount": 28
+		},
+		{
+		  "item": "silicon",
+		  "amount": 10
+		}
+	  ],
+	"category": "power"
+}

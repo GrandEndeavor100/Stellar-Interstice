@@ -1,0 +1,17 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Anti-matter Resonator",
+	"description": "Resonates anti-matter waves spanning a large area and eradicates everything.",
+	"size": 2,
+	"explosionShake":6,
+	"explosionRadius": 400,
+	"explosionDamage":2000 ,
+	"itemCapacity": 10,
+	"requirements": [
+	{
+		  "item": "Anti-matter",
+		  "amount": 10
+		}
+	  ],
+	"category": "power"
+}

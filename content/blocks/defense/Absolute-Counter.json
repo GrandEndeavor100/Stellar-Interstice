@@ -1,0 +1,37 @@
+{
+  "name": "Absolute Counter",
+  "description": "An object with the highest return. Covers damage over a concentrated area.",
+  "type": "Wall",
+  "insulated": true,
+  "absorbLasers": false,
+  "flashHit": true,
+  "lightningChance": 1.0,
+  "lightningDamage": 400,
+  "lightningLength": 80,
+  "health": 4000,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "plastanium","amount": 100
+      
+    },
+	 {
+      "item": "Dimension-Essence","amount": 10
+      
+    },
+	{
+      "item": "Plasma-Orb","amount": 100
+      
+    },
+	{
+      "item": "copper","amount": 400
+      
+    },
+	{
+      "item": "thorium","amount": 200
+      
+    }
+	
+  ]
+  "category":"defense"
+ }

@@ -1,0 +1,33 @@
+{
+  "type": "mech",
+  "name": "[blue]Hibernal",
+  "description": "Icy mechs that uses frost bullets to significantly slow down the enemy. Has a great strategic importance.Its protected by a self-preserving frozen ice wall and has a built-in atmospheric condenser and deep freezer that allows it to harvet ice bullets.",
+  "speed": 6,
+  "hitSize": 8,
+  "health": 2400,
+  "mechSideSway": 0.25,
+  "weapons": [
+    {
+      "name": "ice-blaster",
+      "reload": 180,
+      "shootSound": "flame",
+      "rotate": false,
+      "mirror": true,
+      "chargeSound": "lasercharge2",
+      "alternate": false,
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 4,
+        "lifetime": 40,
+        "damage": 3,
+		"status": "Deep-Frost",
+        "pierce": true,
+        "pierceCap": 2,
+        "buildingDamageMultiplier": 2.0,
+        "chargeEffect": "lightningCharge",
+        "shootEffect": "shootSmall"
+      }
+    }
+  ],
+
+}

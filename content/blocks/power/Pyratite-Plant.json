@@ -1,0 +1,36 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Pyratite Plant",
+	"description": "An energy plant that harnesses the flammability of pyratite to imploy a temperature difference by using a reference frozen ice rod kept at low temperature and is compared with a larger rod holding more pyratite as delivered via input. This will lead to energy production.",
+	"size": 2,
+	"health":780,
+	"itemCapacity": 4,
+	"powerProduction": 10,
+    "itemDuration": 200,
+
+	"consumes": {
+	 "items": {
+	  "items":  [
+	  {
+		  "item": "pyratite",
+		"amount": 2}
+	  ]
+	 }
+	},
+	"requirements": [
+	{
+		  "item": "copper",
+		  "amount": 38
+		},
+		{
+		  "item": "lead",
+		  "amount": 28
+		},
+		{
+		  "item": "spore-pod",
+		  "amount": 64
+		},
+		{"item":"Frozen-Ice", "amount":10}
+	  ],
+	"category": "power"
+}

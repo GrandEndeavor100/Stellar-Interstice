@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "localizedName": "Spore-Slag",
+  "description": "Molten version of spore dopped with minute amounts of pyratite powder. It possess extremely high flammability",
+  "flammability": 60.0,
+  "explosiveness": 0.0,
+  "color": "#d9270f",
+  "heatCapacity": 0.4,
+  "maxSpread": 0.6,
+  "viscosity": 0,
+  "lightColor": "#d9270f"
+}

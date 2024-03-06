@@ -1,0 +1,14 @@
+{
+  "type": "status",
+  "name": "hackEffect",
+  "color": "5ECBFF",
+  "reapply": true,
+  "localizedName": "Hack Effect",
+  "description": "Hacks enemy units, converting them to your team.",
+  "effects": [
+    {
+      "type": "custom",
+      "logic": "com.stellarmod.status.HackEffectLogic"
+    }
+  ]
+}

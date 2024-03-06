@@ -1,0 +1,41 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Plasma-Energizer",
+    "description": "Compresses energized plasma obtained from the environment into plasma orbs.",
+    "health": 960,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 90,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier": 0.6,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Plasma-Orb",
+        "amount": 4
+    },
+    "consumes": {
+        "power": 10.8
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 90
+        },
+        {
+            "item": "plastanium",
+            "amount": 150
+        },
+        {
+            "item": "thorium",
+            "amount": 65
+        },
+        {
+            "item": "Cryo-Orb",
+            "amount": 100
+        }
+    ],
+    "category": "crafting"
+}

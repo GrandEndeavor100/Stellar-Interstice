@@ -1,0 +1,38 @@
+{
+  "name": "Lightning Integrator",
+  "description": "Composite tech wall composed of a deflector,lighting inducer and lightning absorber.",
+  "type": "Wall",
+  "insulated": true,
+  "absorbLasers": true,
+  "flashHit": true,
+  "chanceDeflect":200,
+  "lightningChance": 0.96,
+  "lightningDamage": 100,
+  "lightningLength": 60,
+  "health": 3000,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "plastanium","amount": 100
+      
+    },
+	 {
+      "item": "phase-fabric","amount": 100
+      
+    },
+	{
+      "item": "surge-alloy","amount": 100
+      
+    },
+	{
+      "item": "copper","amount": 400
+      
+    },
+	{
+      "item": "thorium","amount": 200
+      
+    }
+	
+  ]
+  "category":"defense"
+ }

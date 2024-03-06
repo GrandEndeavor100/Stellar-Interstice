@@ -1,0 +1,15 @@
+{
+	"type": "battery",
+	"name": "Dyson Capacitor",
+  "description": "A capacitor capable of storing large quanitities of charge.",
+	"size": 2,
+	"health": 1740,
+	"category": "power",
+	"requirements": [
+		{"item": "lead", "amount": 200},
+		{"item": "silicon", "amount": 200},
+		{"item": "titanium", "amount": 100},
+		{"item": "surge-alloy", "amount": 6}
+	],
+	"consumes": { "powerBuffered": 200000 }
+}

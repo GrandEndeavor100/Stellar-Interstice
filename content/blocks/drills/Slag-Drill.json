@@ -1,0 +1,37 @@
+{	
+    "type": "SolidPump",
+    "name": "Slag Drill",
+    "description": "Creates a bore underground and extracts slag from it.",
+    "health": 600,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "liquidCapacity": 60,
+	"pumpAmount": 0.16,
+	"rotateSpeed": 1.6,
+	"result": "slag",
+	"baseEfficiency": 0.64,
+	"attribute": "heat",
+    "consumes": {
+        "power": 2.6
+    },
+    "requirements": [
+        {
+            "item": "copper",
+            "amount": 30
+        },
+        {
+            "item": "metaglass",
+            "amount": 60
+        },
+        {
+            "item": "graphite",
+            "amount": 34
+        },
+        {
+            "item": "silicon",
+            "amount": 18
+        }
+    ],
+    "category": "production"
+}

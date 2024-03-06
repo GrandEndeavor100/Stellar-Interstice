@@ -1,0 +1,18 @@
+{
+"name": "Mega Distributor",
+"type":"Router",
+"description": "More advanced distribution logistics",
+"category": "distribution",
+"health":6000,
+"itemCapacity":6,
+"size":3,
+"speed":36,
+"requirements": [
+	{"item": "copper","amount":400},
+	{"item": "thorium","amount":1000},
+	{"item": "Cryo-Orb","amount":400},
+	{"item": "Frozen-Ice","amount":40}
+	
+]
+"category": "distribution"
+}

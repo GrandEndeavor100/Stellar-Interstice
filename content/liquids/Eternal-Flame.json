@@ -1,0 +1,12 @@
+{
+  "type": "liquid",
+  "localizedName": "Eternal-Flame",
+  "description": "The recently circumventing probe crashed onto Sepulos moon Tantros. There it recieved a transmission from an unknown sender indicating the arrival of doom on Serpulo. The transmission elucidated on the existence of a massive self-replicating flammable organism that wreaks havoc on all celestial bodies.",
+  "flammability": 20.0,
+  "explosiveness": 0.0,
+  "color": "#d13708",
+  "heatCapacity": 0.4,
+  "maxSpread": 0.4,
+  "viscosity": 4.0,
+  "lightColor": "#d13708"
+}
