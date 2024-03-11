@@ -1,15 +1,29 @@
 {
-	"type": "PowerVoid",
-	"name": "Zero",
-  "description": "A resistor that completely inhibit the flow of charge for all connected systems.",
+	"type": "ImpactReactor",
+	"name": "Vortex",
+	"description":"A vortex that completly inhibits the flow of power.",
 	"size": 2,
-	"health": 2000,
-	"category": "power",
+	"health":780,
+	"itemCapacity": 10,
+	"powerProduction": 0,
+    "itemDuration": 200,
+
+	"consumes": {
+		"power":200000
+	},
 	"requirements": [
-		{"item": "lead", "amount": 10},
-		{"item": "silicon", "amount": 20},
-		{"item": "Plasma-Orb", "amount": 10},
-		{"item": "Quantum-World", "amount": 6}
-	],
-	"consumes": { "powerBuffered": 200000 }
+	{
+		  "item": "copper",
+		  "amount": 10
+		},
+		{
+		  "item": "lead",
+		  "amount": 18
+		},
+		{
+		  "item": "silicon",
+		  "amount": 20
+		}
+	  ],
+	"category": "power"
 }
