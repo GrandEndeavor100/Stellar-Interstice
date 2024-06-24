@@ -1,0 +1,22 @@
+{
+  "name": "Lighnting Tower",
+  "description": "Heavily absorbs lightnings and has a built in deflector",
+  "type": "Wall",
+  "insulated": true,
+  "absorbLasers": true,
+  "flashHit": true,
+  "chanceDeflect":200,
+  "health": 4000,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "plastanium","amount": 100
+      
+    },
+	 {
+      "item": "phase-fabric","amount": 100
+      
+    }
+  ]
+  "category":"defense"
+ }

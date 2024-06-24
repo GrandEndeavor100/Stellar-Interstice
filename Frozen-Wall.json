@@ -1,0 +1,12 @@
+{
+"type": "Wall",
+"name":"Frozen wall",
+"description":"A wall made by composing frozen ice.",
+"health": 500,
+"requirements": [
+{ "item":"Frozen-Ice","amount":10}
+],
+"size": 1,
+"solid": false,
+"category": "defense"
+} 

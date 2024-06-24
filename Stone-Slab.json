@@ -1,0 +1,13 @@
+{
+"type": "Wall",
+"name":"Stone Slab",
+"description":"A slab made from natural stone.",
+"health": 1000,
+"flashHit": true,
+"requirements": [
+{ "item":"Stone","amount":4}
+],
+"size": 2,
+"solid": true,
+"category": "defense"
+} 
