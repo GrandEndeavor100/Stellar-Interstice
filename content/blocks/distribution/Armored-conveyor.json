@@ -1,13 +1,13 @@
 {
     "type": "ArmoredConveyor",
-	"name":"Armored Conveyor",
+	"name":"Logic Pipeline",
 	"description":"A heavily armored conveyor",
     "category": "distribution",
     "health": 400,
     "speed": 0.03,
     "research": "conveyor",
     "requirements": [
-        { "item": "titanium", "amount": 2 },
-        { "item": "copper", "amount": 4 }
+        { "item": "Logic-Zero", "amount": 2 },
+        { "item": "Logic-One", "amount": 2 }
     ]
 }

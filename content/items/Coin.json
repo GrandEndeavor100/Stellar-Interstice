@@ -1,0 +1,10 @@
+{
+  "type": "item",
+  "name": "Coin",
+  "localizedName": "Coin",
+  "description": "A unit of credit used for accessing alternatives for standard production of assets.",
+  "color": "#ff5500",
+  "flammability":0.0,
+  "explosiveness":0.0,
+  "charge":0.0
+}

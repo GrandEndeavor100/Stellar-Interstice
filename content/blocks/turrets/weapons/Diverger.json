@@ -1,0 +1,25 @@
+{
+  "type": "TractorBeamTurret",
+  "name": "Diverger",
+  "description": "A motion inhibiter that concentrates on a single unit.",
+  "size": 2,
+  "force": -1000,
+  "targetAir": true,
+  "targetGround": true,
+  "scaledForce": -800,
+  "health": 800,
+  "range": 256,
+  "damage": 0.0,
+  "status": "hackeffect",
+  "rotateSpeed": 15,
+  "hasPower": true,
+  "consumes": {
+    "power": 4
+  },
+  "requirements": [
+  {"item":"Logic-One","amount":100},
+  {"item":"silicon","amount":20},
+  {"item":"Logic-Zero","amount":200}
+  ],
+  "category": "turret"
+}

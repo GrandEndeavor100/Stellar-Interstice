@@ -1,0 +1,48 @@
+{
+  "type": "GenericCrafter",
+  "name": "Dimension Interface",
+  "description": "At the most unexpected times, a certain revelation will be beholded which is recieved as a blessing from the One",
+  "outputItem": {
+    "item": "Dimension-Essence",
+    "amount": 3
+  },
+  "health": 10000,
+  "itemCapacity": 100,
+  "liquidCapacity": 60,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power":37777 ,
+    "liquid": {
+            "liquid": "Void-Fluid",
+            "amount": 1.0
+        }
+  },
+  "requirements": [
+
+    {
+      "item": "Spatial-Fabric",
+      "amount": 100
+    },
+    {
+      "item": "Time-Fragment",
+      "amount": 90
+    },
+    {
+      "item": "Fractal-Pebble",
+      "amount": 80
+    },
+	{
+      "item": "Quantum-World",
+      "amount": 70
+    },
+	{
+      "item": "Anti-matter",
+      "amount": 60
+    }
+  ],
+  "category": "crafting"
+}

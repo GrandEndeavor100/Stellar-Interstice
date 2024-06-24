@@ -29,18 +29,18 @@
 
     {
       "item": "graphite",
-      "amount": 100
+      "amount": 10
     },
     {
       "item": "silicon",
-      "amount": 75
+      "amount": 7
     },
     {
-      "item": "titanium",
+      "item": "Logic-Zero",
       "amount": 100
     },
 	{
-      "item": "pyratite",
+      "item": "Logic-One",
       "amount": 30
     }
   ],

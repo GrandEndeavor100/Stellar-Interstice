@@ -1,0 +1,57 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Fractal Magnifier",
+    "description": "Magnifies abstract recursive structures by recreating space and circulating time. Requires Cryo Orbs as coolant.",
+    "health": 2000,
+    "size": 4,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 200,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier":1.0,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Fractal-Pebble",
+        "amount": 2
+    },
+    "consumes": {
+        "power": 2,
+        "items": {
+	  "items":  [
+	  {
+		  "item": "Cryo-Orb",
+		"amount": 6},
+			  {
+		  "item": "Spatial-Fabric",
+		"amount": 6},
+			  {
+		  "item": "Time-Fragment",
+		"amount": 6}
+	  ]
+	 }
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 20
+        },
+        {
+            "item": "Logic-One",
+            "amount": 20
+        },
+        {
+            "item": "graphite",
+            "amount": 20
+        },
+        {
+            "item": "silicon",
+		"amount": 20},
+		{"item":"Cryo-Orb","amount":20},
+		{"item":"thorium","amount":20},
+		{"item":"Quantum-World","amount":20},
+		{"item":"Anti-matter","amount":20}
+    ],
+    "category": "crafting"
+}

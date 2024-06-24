@@ -1,0 +1,33 @@
+{	
+    "type": "SolidPump",
+    "name": "Oil Circulator",
+    "description": "Creates a bore underground and extracts oil from it.",
+    "health": 300,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "liquidCapacity": 60,
+	"pumpAmount": 0.12,
+	"rotateSpeed": 1.6,
+	"result": "oil",
+	"baseEfficiency": 0.80,
+	"attribute": "heat",
+    "consumes": {
+        "power": 1.0
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 40
+        },
+        {
+            "item": "graphite",
+            "amount": 34
+        },
+        {
+            "item": "Logic-One",
+            "amount": 18
+        }
+    ],
+    "category": "production"
+}

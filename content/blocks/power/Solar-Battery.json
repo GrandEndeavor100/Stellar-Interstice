@@ -1,18 +1,18 @@
 {
 	"type": "SolarGenerator",
 	"name": "Stellar Core",
-	"description":"An artifical mini core of energy source replicated from the fusion in stellar ineriors.",
+	"description":"An artifical mini core of energy source replicated from the fusion in stellar ineriors. Can also be used as bait for flying enemy units.",
 	"size": 2,
-	"healt":140,
+	"healt":2000,
 	"powerProduction": 20,
 	"powerBuffered":6000,
 	"requirements": [
 	{
-		  "item": "copper",
+		  "item": "Logic-Zero",
 		  "amount": 10
 		},
 		{
-		  "item": "lead",
+		  "item": "Logic-One",
 		  "amount": 20
 		},
 		{

@@ -11,10 +11,6 @@
   "health": 4000,
   "size": 2,
   "requirements": [
-    {
-      "item": "plastanium","amount": 100
-      
-    },
 	 {
       "item": "Dimension-Essence","amount": 10
       
@@ -24,7 +20,7 @@
       
     },
 	{
-      "item": "copper","amount": 400
+      "item": "Logic-Zero","amount": 400
       
     },
 	{

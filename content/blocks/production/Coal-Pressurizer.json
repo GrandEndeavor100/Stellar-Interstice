@@ -1,0 +1,35 @@
+{
+  "type": "GenericCrafter",
+  "name": "Coal Pressurizer",
+  "description": "Pressurizes oil into packets of discretecoal.Each packet contains 4 coal.",
+  "outputItem": {
+    "item": "pyratite",
+    "amount": 4
+  },
+  "health": 300,
+  "itemCapacity": 40,
+  "liquidCapacity": 60,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power":0.6 ,
+    "liquid": {
+            "liquid": "oil",
+            "amount": 0.6
+        }
+  },
+  "requirements": [
+    {
+      "item": "Logic-Zero",
+      "amount": 10
+    },
+    {
+      "item": "Logic-One",
+      "amount": 10
+    }
+  ],
+  "category": "crafting"
+}

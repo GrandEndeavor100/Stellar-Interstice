@@ -1,0 +1,10 @@
+{
+  "type": "item",
+  "name": "Stone",
+  "localizedName": "Stone",
+  "description": "An aggregate composed of several minerals obtained by solidifying and cooling pure slag.",
+  "color": "#ff5500",
+  "flammability":0.0,
+  "explosiveness":0.0,
+  "charge":0.0
+}

@@ -1,33 +1,19 @@
 {
 	"type": "ConsumeGenerator",
 	"name": "Spore Bomb",
-	"description": "A detonator composed of sporepods. Used to decimate a small area.",
+	"description": "A detonator that uses sporepods to decimate an area. The spore pods are internally made using logic elements. ",
 	"size": 2,
 	"explosionShake":6,
 	"explosionRadius": 100,
 	"explosionDamage": 80,
-	"itemCapacity": 10,
-	"consumes": {
-	 "items": {
-	  "items":  [
-	  {
-		  "item": "spore-pod",
-		"amount": 4}
-	  ]
-	 }
-	},
 	"requirements": [
 	{
-		  "item": "graphite",
-		  "amount": 10
+		  "item": "Logic-Zero",
+		  "amount": 100
 		},
 		{
-		  "item": "lead",
-		  "amount": 16
-		},
-		{
-		  "item": "spore-pod",
-		  "amount": 60
+		  "item": "Logic-One",
+		  "amount": 100
 		}
 	  ],
 	"category": "power"

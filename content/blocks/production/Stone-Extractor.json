@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": "Stone Extractor",
+  "description": "Extracts stone from slag.",
+  "outputItem": {
+    "item": "Stone",
+    "amount": 6
+  },
+  "health": 100,
+  "itemCapacity": 40,
+  "liquidCapacity": 60,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power":0.6 ,
+    "liquid": {
+            "liquid": "slag",
+            "amount": 0.6
+        }
+  },
+  "requirements": [
+
+    {
+      "item": "Logic-Zero",
+      "amount": 100
+    },
+    {
+      "item": "Logic-One",
+      "amount": 100
+    }
+  ],
+  "category": "crafting"
+}

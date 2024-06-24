@@ -1,0 +1,23 @@
+{
+    "type": "BaseShield",
+    "name": "Grand Nebulae",
+    "description": "Creates a massive higher dimensional domain field that induces a circular restriction that prevents the all-dimenional motion of any object incident on the circle.",
+	"rebuildable":true,
+    "size": 3,
+	"smoothRadius":200,
+	"sides":0
+	"rotate":45,
+	"radius":200,
+    "health": 8000,
+    "requirements": [
+        {"item": "Cryo-Orb", "amount": 300},
+        {"item": "silicon", "amount": 200},
+	      {"item": "Plasma-Orb", "amount": 100},
+	      {"item": "Spatial-Fabric", "amount": 100},
+		  {"item": "Time-Fragment", "amount": 60}
+    ],
+    "consumes": {
+		  "power": 6
+	  },
+	      "category": "effect"
+}

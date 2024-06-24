@@ -25,15 +25,15 @@
 
     {
       "item": "graphite",
-      "amount": 100
+      "amount": 20
     },
     {
-      "item": "coal",
-      "amount": 75
+      "item": "Logic-Zero",
+      "amount": 7
     },
     {
-      "item": "copper",
-      "amount": 100
+      "item": "Logic-One",
+      "amount": 10
     }
   ],
   "category": "crafting"

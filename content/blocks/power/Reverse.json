@@ -1,19 +1,17 @@
 {
 	"type": "ConsumeGenerator",
-	"name": "Reverse Continuum Core",
-	"description": "Rearranges the Spatio-Temporal fabric and causes ripples in the continuum.",
+	"name": "Providence Continuum Core",
+	"description": "[blue]Unleashes a glimpse into the [green]Interstice.",
 	"size": 2,
-	"explosionShake":6,
+	"explosionShake":1,
 	"explosionRadius": 100,
-	"explosionDamage":12000 ,
+	"explosionDamage":16000 ,
 	"itemCapacity": 10,
 	"requirements": [
-	{
-		  "item": "Spatial-Fabric",
-		  "amount": 6,
-		  "item": "Time-Fragment",
-		  "amount": 6
-		}
-	  ],
+    {
+      "item": "Dimension-Essence",
+      "amount": 40
+    }
+  ],
 	"category": "power"
 }

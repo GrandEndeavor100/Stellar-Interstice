@@ -5,6 +5,7 @@
 "liquidCapacity": 10,
 "shootDuration": 600,
 "health": 1960,
+"size": 2,
 "range": 300,
 "consumes": {
   "power": 0.4,
@@ -32,8 +33,8 @@
 },
 "category": "turret",
 "requirements": [
-  {"item":"copper","amount":10},
-  {"item":"lead","amount":20},
-  {"item":"metaglass","amount":30}
+  {"item":"Logic-Zero","amount":10},
+  {"item":"Logic-One","amount":20},
+  {"item":"silicon","amount":40}
   ]
   }

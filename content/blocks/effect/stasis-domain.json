@@ -3,7 +3,7 @@
     "name": "Stasis Domain",
     "description": "Creates a domain field that induces a square restriction that prevents the vectorial motion of any object incident on the circle.",
 	"rebuildable":true,
-    "size": 3,
+    "size": 10,
 	"smoothRadius":120,
 	"sides":4,
 	"rotate":45,

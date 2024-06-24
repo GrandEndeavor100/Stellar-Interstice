@@ -1,0 +1,18 @@
+{
+  "type": "BuildTurret",
+  "name": "Hope",
+  "description": "A time-recursor device that reconstructs matter present within a vicinity.",
+  "requirements": [
+    "Logic-Zero/100",
+    "Logic-One/60",
+    "Spatial-Fabric/2"
+  ],
+  "category": "effect",
+  "size": 2,
+  "range": 200,
+  "buildSpeed": 1,
+  "consumes": {
+    "power": 6,
+    "liquid": "Spore-Frost/0.1"
+  }
+}

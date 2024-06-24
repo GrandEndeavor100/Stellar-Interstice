@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": "Tungsten Merchant",
+  "description": "Trades tungsten for coins.",
+  "outputItem": {
+        "item": "tungsten",
+        "amount": 2
+    },
+  "health": 600,
+  "itemCapacity": 40,
+  "size": 2,
+  "craftTime": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.01,
+    "items": {
+      "items": [
+        {
+          "item": "Coin",
+          "amount": 4
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "Logic-Zero",
+      "amount": 12
+    },
+    {
+      "item": "Logic-One",
+      "amount": 12
+    }
+  ],
+  "category": "crafting"
+}

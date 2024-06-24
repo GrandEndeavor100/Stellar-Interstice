@@ -1,0 +1,21 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Perennial Transcendence",
+	"description": "Transcends known dimensional limits of spacetime. Has lower range than Anti-matter resonator but is more powerful.",
+	"size": 2,
+	"explosionShake":1,
+	"explosionRadius": 300,
+	"explosionDamage":12000 ,
+	"itemCapacity": 10,
+	"requirements": [
+	{
+		  "item": "Spatial-Fabric",
+		  "amount": 10
+		},
+			{
+		  "item": "Time-Fragment",
+		  "amount": 10
+		}
+	  ],
+	"category": "power"
+}

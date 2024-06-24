@@ -1,0 +1,32 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Detonator",
+    "description": "Generates activation key for activating the Trigger Bomb.",
+    "health": 100,
+    "size": 1,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 2,
+    "itemCapacity": 4,
+    "buildCostMultiplier": 1.0,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Activation-Key",
+        "amount": 4
+    },
+    "consumes": {
+        "power": 0.1
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 10
+        },
+        {
+            "item": "Logic-One",
+            "amount": 10
+        }
+    ],
+    "category": "crafting"
+}

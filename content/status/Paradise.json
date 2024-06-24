@@ -1,8 +1,8 @@
 {
   "name": "Paradise",
-  "description":"The Light that transcendes everything to the Truth.",
+  "description":"The Life that transcendes everything to the Truth.",
   "reloadMultiplier": 0.0,
-  "damageMultiplier":0.0,
+  "damageMultiplier":1000.0,
   "speedMultiplier":0.0
   "healthMultiplier":0.0,
   "effect": "shieldBreak"

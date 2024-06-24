@@ -1,0 +1,36 @@
+{
+  "name": "Time Rejuvenator",
+  "description": "Induces cyclical rejuvenation of matter in the surrounding area helping in healing of blocks.",
+  "type": "MendProjector",
+  "health": 800,
+  "size": 2,
+  "range": 100,
+  "reload": 40,
+  "consumesPower": true,
+  "baseColor": "6d5ac6",
+  "phaseColor": "6d5ac6",
+  "hasPower": false,
+  "healPercent": 2,
+  "consumes":{
+	  "power":2
+  },
+  "requirements": [
+    {
+      "item": "Logic-Zero",
+      "amount": 12
+    },
+    {
+      "item": "Logic-One",
+      "amount": 12
+    },
+    {
+      "item": "graphite",
+      "amount": 20
+    },
+    {
+      "item": "Time-Fragment",
+      "amount": 2
+    }
+  ],
+  "category": "effect"
+}

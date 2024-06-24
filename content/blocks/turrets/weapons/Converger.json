@@ -1,0 +1,25 @@
+{
+  "type": "TractorBeamTurret",
+  "name": "Converger",
+  "description": "A magnetic wall that converges a single target and thereby restricting its motion in its immediate proximity. ",
+  "size": 2,
+  "force": 4000,
+  "targetAir": true,
+  "targetGround": true,
+  "scaledForce": 1800,
+  "health": 2000,
+  "range": 120,
+  "damage": 0.0,
+  "status": "hackeffect",
+  "rotateSpeed": 15,
+  "hasPower": true,
+  "consumes": {
+    "power": 4
+  },
+  "requirements": [
+  {"item":"Logic-One","amount":200},
+  {"item":"silicon","amount":20},
+  {"item":"Logic-Zero","amount":100}
+  ],
+  "category": "turret"
+}

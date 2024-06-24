@@ -1,0 +1,65 @@
+{
+	"type": "ItemTurret",
+	"name": "Incalescence",
+	"description": "Scorches targets with high intensity flame.",
+	"health":1000,
+	"targetAir": true,
+	"targetGround": true,
+	"size": 2,
+	"inaccuracy": 2,
+	"reload": 0.2,
+	"shootCone": 20,
+	"shootSound": "flame",
+	"rotateSpeed": 22,
+	"range": 200,
+	"ammoTypes": {
+		"pyratite": {
+			"speed": 4.2,
+			"damage": 30,
+			"pierceBuilding": true
+			"width": 7,
+			"height": 9,
+			"makeFire": true,
+			"despawnEffect": "none",
+			"shootEffect": "explosion",
+			"status":"Blue-Flame",
+			"lifetime":60,
+			"ammoMultiplier": 1,
+			"frontColor": "115852",
+            "backColor": "3ca99f",
+			"lightColor": "ff0000",
+			"trailColor": "ff6666",
+			"trailWidth": 5,
+			"trailLength": 20,
+			"trailEffect": "none",
+			"status":"Blue-Flame",
+			"smokeEffect": {
+			  "type": "ParticleEffect",
+			  "particles": 100,
+			  "length": 200,
+			  "lifetime": 40
+			  "interp": "circleOut",
+			  "cone": 2,
+			  "colorFrom": "009900"
+			  "colorTo": "ccff99",
+			  "sizeFrom": 6,
+			  "sizeTo": 0.2
+    }
+		}
+	}
+	"requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 25
+        },
+		{
+            "item": "Logic-One",
+            "amount": 31
+        },
+        {
+            "item": "Wood-Log",
+            "amount": 10
+        }
+    ],
+	"category": "turret"
+}

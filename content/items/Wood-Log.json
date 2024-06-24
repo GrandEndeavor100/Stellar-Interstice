@@ -1,0 +1,11 @@
+{
+  "type": "item",
+  "name": "Wood Log",
+  "localizedName": "Wood Log",
+  "description": " A log of wood obtained from farms."
+  "color": "#484030",
+  "flammability":10.0,
+  "explosiveness":0.0,
+  "temperature":0,
+  "charge":0.0
+}

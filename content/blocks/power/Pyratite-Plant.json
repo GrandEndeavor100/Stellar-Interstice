@@ -4,7 +4,7 @@
 	"description": "An energy plant that harnesses the flammability of pyratite to imploy a temperature difference by using a reference frozen ice rod kept at low temperature and is compared with a larger rod holding more pyratite as delivered via input. This will lead to energy production.",
 	"size": 2,
 	"health":780,
-	"itemCapacity": 4,
+	"itemCapacity": 10,
 	"powerProduction": 10,
     "itemDuration": 200,
 

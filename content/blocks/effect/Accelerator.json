@@ -1,0 +1,27 @@
+{
+  "type": "OverdriveProjector",
+  "name": "Time Accelerator",
+  "description": "Accelerates surrounding time component of physical reality by two-fold.",
+  "range": 60,
+  "hasBoost": false,
+  "speedBoost": 2.0,
+  "reload": 1,
+  "category": "effect",
+  "consumes": {
+    "power": 2.0
+  },
+  "requirements": [
+    {
+      "item": "Logic-One",
+      "amount": 10
+    },
+    {
+      "item": "thorium",
+      "amount": 10
+    },
+    {
+      "item": "silicon",
+      "amount": 10
+    }
+  ]
+}

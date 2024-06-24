@@ -1,0 +1,11 @@
+{
+  "type": "item",
+  "name": "Logic One",
+  "localizedName": "Logic One",
+  "description": "Condensed version of Unity.",
+  "color": "#ff5500",
+  "flammability":0.0,
+  "explosiveness":0.0,
+  "temperature":0.0,
+  "charge":0.0
+}

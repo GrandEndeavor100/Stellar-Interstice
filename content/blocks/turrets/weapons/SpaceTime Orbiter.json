@@ -32,7 +32,7 @@
     "trailColor": "52027d",
     "trailWidth": 5,
     "trailLength": 15,
-    "trailEffect": "none"
+    "trailEffect": "none",
     "hitEffect": {
       "type": "MultiEffect",
       "lifetime": 70,

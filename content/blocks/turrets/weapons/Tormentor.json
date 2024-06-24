@@ -1,0 +1,40 @@
+{
+	"type": "ItemTurret",
+	"name": "Tormentor",
+	"description": "Sling shots stones as cannons on both air and ground targets. Has high precision.",
+	"health":600,
+	"targetAir": true,
+	"targetGround": true,
+	"size": 1,
+	"inaccuracy": 0,
+	"reload": 100,
+	"shootCone": 20,
+	"rotateSpeed": 22,
+	"range": 162,
+	"ammoTypes": {
+		"Stone": {
+			"speed": 10.0,
+			"damage": 10,
+			"width": 7,
+			"height": 9,
+			"shootEffect": "explosion",
+			"ammoMultiplier": 1,
+			"sprite":"metal-cannon-bullet"
+		}
+	}
+	"requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 10
+        },
+		{
+            "item": "Logic-One",
+            "amount": 10
+        },
+        {
+            "item": "Stone",
+            "amount": 10
+        }
+    ],
+	"category": "turret"
+}

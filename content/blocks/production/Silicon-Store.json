@@ -1,0 +1,43 @@
+{
+  "type": "GenericCrafter",
+  "name": "Silicon Store",
+  "description": "Trades silicon for coins.",
+  "outputItem": {
+        "item": "silicon",
+        "amount": 2
+    },
+  "health": 600,
+  "itemCapacity": 40,
+  "size": 2,
+  "craftTime": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.02,
+    "items": {
+      "items": [
+        {
+          "item": "Coin",
+          "amount": 16
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "Logic-Zero",
+      "amount": 12
+    },
+    {
+      "item": "Logic-One",
+      "amount": 12
+    },
+	{
+      "item": "graphite",
+      "amount": 6
+    }
+  ],
+  "category": "crafting"
+}

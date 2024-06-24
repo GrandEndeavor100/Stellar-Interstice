@@ -1,0 +1,45 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Differential Optimizer",
+	"description": "Optimizes new pathlines for energy in a differential grid thereby generating power.",
+	"size": 2,
+	"health":1000,
+	"itemCapacity": 10,
+	"powerProduction": 100,
+    "itemDuration": 60,
+
+	"consumes": {
+	 "items": {
+	  "items":  [
+	  {
+		  "item": "Logic-One",
+		"amount": 2},
+		{
+		  "item": "Plasma-Orb",
+		"amount": 2},
+		{
+		  "item": "Cryo-Orb",
+		"amount": 2}
+	  ]
+	 }
+	},
+	"requirements": [
+	{
+		  "item": "Logic-Zero",
+		  "amount": 100
+		},
+		{
+		  "item": "Logic-One",
+		  "amount": 100
+		},
+		{
+		  "item": "Plasma-Orb",
+		  "amount": 30
+		},
+		{
+		  "item": "Cryo-Orb",
+		  "amount": 10
+		}
+	  ],
+	"category": "power"
+}

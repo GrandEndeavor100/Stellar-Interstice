@@ -6,7 +6,7 @@
   "absorbLasers": true,
   "flashHit": true,
   "chanceDeflect":200,
-  "lightningChance": 0.96,
+  "lightningChance": 0.80,
   "lightningDamage": 100,
   "lightningLength": 60,
   "health": 3000,

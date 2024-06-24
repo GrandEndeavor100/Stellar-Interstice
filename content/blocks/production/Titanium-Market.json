@@ -1,0 +1,39 @@
+{
+  "type": "GenericCrafter",
+  "name": "Titanium Market",
+  "description": "Trades titanium for coins.",
+  "outputItem": {
+        "item": "titanium",
+        "amount": 2
+    },
+  "health": 600,
+  "itemCapacity": 40,
+  "size": 2,
+  "craftTime": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 10,
+    "items": {
+      "items": [
+        {
+          "item": "Coin",
+          "amount": 32
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "Logic-Zero",
+      "amount": 30
+    },
+    {
+      "item": "Logic-One",
+      "amount": 30
+    }
+  ],
+  "category": "crafting"
+}

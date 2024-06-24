@@ -1,0 +1,38 @@
+{
+  "type": "GenericCrafter",
+  "name": "Graphite Trader",
+  "description": "Trades graphite for coins.",
+  "outputItem": {
+        "item": "graphite",
+        "amount": 1
+    },
+  "health": 600,
+  "itemCapacity": 40,
+  "size": 2,
+  "craftTime": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "items": {
+      "items": [
+        {
+          "item": "Coin",
+          "amount": 8
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "Logic-Zero",
+      "amount": 12
+    },
+    {
+      "item": "Logic-One",
+      "amount": 12
+    }
+  ],
+  "category": "crafting"
+}

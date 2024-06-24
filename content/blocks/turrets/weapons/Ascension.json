@@ -1,0 +1,51 @@
+{
+  "type": "PowerTurret",
+  "health": 2000,
+  "name": "Ascension Discharge",
+  "description": "Discharges massive lines of instant lightings covering a smaller distance.",
+  "size": 3,
+  "range": 100,
+  "reload": 1000,
+  "shootSound": "spark",
+  "shootCone": 30,
+  "shootType": {
+    "type": "LightningBulletType",
+    "lightningLength": 100,
+    "damage": 800
+  },
+  "rotateSpeed": 360,
+  "consumes": {
+    "power": 20,
+    "coolant": {
+      "amount": 0.2
+    }
+  },
+  "targetAir": true,
+  "targetGround": true,
+  "pierce":true,
+  "heatColor": "ff0000",
+  "shootEffect": "lightningShoot",
+  "recoil": 1.0,
+  "requirements": [
+    {
+      "item": "Logic-Zero",
+      "amount": 150
+    },
+    {
+      "item": "Logic-One",
+      "amount": 150
+    },
+    {
+      "item": "graphite",
+      "amount": 100
+    },
+	{
+      "item": "silicon",
+      "amount": 100
+    },
+	{
+      "item": "Plasma-Orb",
+      "amount": 30
+    }
+  ]
+}

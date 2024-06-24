@@ -1,0 +1,76 @@
+{
+  "type": "unitFactory",
+  "name": "Ignitor",
+  "description": "A versatile construction network that can sent bomb units and massive torpedoes that can be controlled to explode near a particular target or sent innovative drones for manipulative strategies.",
+  "size": 3,
+  "consumes": {
+    "power": 1.2
+  },
+  "plans": [
+    {
+      "unit": "Suppressor",
+      "requirements": [
+        "copper/30",
+        "silicon/30",
+		"Fractal-Pebble/30",
+		"Plasma-Orb/10"
+      ],
+      "time": 2300
+    },
+    {
+      "unit": "BombFly",
+      "requirements": [
+        "coal/10",
+        "silicon/12"
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "Liberator",
+      "requirements": [
+        "silicon/20",
+        "metaglass/15",
+		"Plasma-Orb/20",
+		"Quantum-World/10",
+		"Anti-matter/10"
+      ],
+      "time": 3600
+    },
+    {
+      "unit": "Barrier",
+      "requirements": [
+        "Metal-Cannon/15",
+        "Stone/30",
+		"Fractal-Pebble/6",
+		"Spatial-Fabric/2"
+		
+      ],
+      "time": 1200
+    },
+    {
+      "unit": "photon",
+      "requirements": [
+        "silicon/6",
+        "metaglass/6",
+        "Plasma-Orb/16"
+      ],
+      "time": 120
+    },
+    {
+      "unit": "Hibernal",
+      "requirements": [
+        "scrap/10",
+        "Frozen-Ice/30",
+		"copper/6"
+      ],
+      "time": 360
+    }
+  ],
+  "requirements": [
+    "copper/30",
+    "Plasma-Orb/10",
+    "silicon/40",
+    "metaglass/30"
+  ],
+  "category": "units"
+}

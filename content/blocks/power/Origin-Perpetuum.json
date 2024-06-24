@@ -1,0 +1,20 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "Origin Perpetuum",
+	"description": "A micro perpetual  energy source that is self sustaining.",
+	"size": 1,
+	"health":100,
+	"powerProduction": 0.6,
+	"requirements": [
+	{
+		  "item": "Logic-Zero",
+		  "amount": 38
+		},
+		{
+		  "item": "Logic-One",
+		  "amount": 28
+		},
+		{"item":"Frozen-Ice", "amount":10}
+	  ],
+	"category": "power"
+}

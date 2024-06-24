@@ -18,17 +18,51 @@
 			"knockback": 400,
 			"width": 7,
 			"height": 9,
-			"shootEffect": "explosion",
+			"status":"Perception",
 			"ammoMultiplier": 1,
+			"frontColor": "00994d",
+            "backColor": "99ff33",
+			"lightColor": "000099",
+			"trailColor": "b3b3ff",
+			"trailWidth": 5,
+			"trailLength": 20,
+			"trailEffect": "none",
+			"hitEffect": {
+			  "type": "MultiEffect",
+			  "lifetime": 70,
+			"effects":[
+			{
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 20,
+          "lifetime": 15,
+          "length": 20,
+          "strokeFrom": 4,
+          "strokeTo": 2,
+          "lenFrom": 4,
+          "lenTo": 0,
+          "colorFrom": "000099",
+          "colorTo": "b3b3ff"
+        },
+		{
+          "type": "ParticleEffect",
+          "particles": 10,
+          "lifetime": 30,
+          "length": 20,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "colorFrom": "00994d"
+          "colorTo": "99ff33"
+			}]}
 		}
 	}
 	"requirements": [
         {
-            "item": "copper",
+            "item": "Logic-Zero",
             "amount": 40
         },
 		{
-            "item": "lead",
+            "item": "Logic-One",
             "amount": 30
         },
         {

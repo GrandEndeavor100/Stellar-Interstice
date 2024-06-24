@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Wood	Fabricator",
+  "description": "Compresses natural biomes present deep within the soil to cultivate wood. Consumes water",
+  "outputItem": {
+    "item": "Wood-Log",
+    "amount": 6
+  },
+  "health": 300,
+  "itemCapacity": 40,
+  "liquidCapacity": 60,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power":0.1 ,
+    "liquid": {
+            "liquid": "water",
+            "amount": 1.0
+        }
+  },
+  "requirements": [
+
+    {
+      "item": "Stone",
+      "amount": 10
+    },
+    {
+      "item": "Logic-Zero",
+      "amount": 5
+    },
+    {
+      "item": "Logic-One",
+      "amount": 20
+    }
+  ],
+  "category": "crafting"
+}

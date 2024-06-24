@@ -1,14 +1,14 @@
 {
 	"type": "NuclearReactor",
 	"name": "Trigger",
-	"description": "A device that explodes in a minor manner to ignite damage and to activate higher order bombs. Water is used for disabling the bomb. The acitvation process starts the moment the water is depleted or when the acitvation key enters the system which does not have water.",
+	"description": "A device that explodes in a minor manner to ignite damage and to activate higher order bombs. The acitvation process starts the moment the water is depleted.",
 	"size": 2,
 	"explosionShake":6,
 	"hasPower":true,
 	"hasLiquids":true,
 	"hasItems":true,
 	"explosionRadius": 40,
-	"explosionDamage": 60,
+	"explosionDamage": 120,
 	"heating": 1.0,
 	"liquidCapacity":30,
 	"itemCapacity": 10,
@@ -28,16 +28,12 @@
 	},
 	"requirements": [
 	{
-		  "item": "copper",
+		  "item": "Logic-Zero",
 		  "amount": 10
 		},
 		{
-		  "item": "lead",
+		  "item": "Logic-One",
 		  "amount": 16
-		},
-		{
-		  "item": "coal",
-		  "amount": 10
 		}
 	  ],
 	"category": "power"

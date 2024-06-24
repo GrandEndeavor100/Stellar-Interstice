@@ -1,6 +1,6 @@
 {	
     "type": "GenericCrafter",
-    "name": "Inverse-Cryo-Matrix",
+    "name": "Inverse Cryo-Matrix",
     "description": "Liquifies Cryo-Orb to cryofluid",
     "health": 960,
     "size": 3,
@@ -28,20 +28,16 @@
 	},
     "requirements": [
         {
-            "item": "pyratite",
-            "amount": 6
+            "item": "graphite",
+            "amount": 20
         },
         {
-            "item": "titanium",
+            "item": "Logic-Zero",
             "amount": 150
         },
-        {
-            "item": "graphite",
-            "amount": 65
-        },
-        {
-            "item": "metaglass",
-            "amount": 100
+		{
+            "item": "Logic-One",
+            "amount": 90
         }
     ],
     "category": "crafting"

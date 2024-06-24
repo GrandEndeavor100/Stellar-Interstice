@@ -27,5 +27,5 @@
 	  "collidesAir":true}
 	}
         ],
-  "hitSize": 4
+  "hitSize": 2
 }

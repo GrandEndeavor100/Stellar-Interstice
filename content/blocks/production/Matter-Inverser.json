@@ -27,24 +27,18 @@
         },
     "requirements": [
         {
-            "item": "copper",
-            "amount": 2017
+            "item": "Logic-Zero",
+            "amount": 50
         },
         {
-            "item": "lead",
-            "amount": 1929
+            "item": "Logic-One",
+            "amount": 60
         },
         {
             "item": "graphite",
-            "amount": 1928
+            "amount": 19
         },
-        {
-            "item": "silicon",
-		"amount": 1880},
-		{"item":"Cryo-Orb","amount":200},
-		{"item":"thorium","amount":80},
-		{"item":"plastanium","amount":600},
-		{"item":"surge-alloy","amount":100}
+		{"item":"Cryo-Orb","amount":100}
     ],
     "category": "crafting"
 }

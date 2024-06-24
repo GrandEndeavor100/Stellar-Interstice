@@ -1,0 +1,35 @@
+{
+  "name": "Leveller",
+  "type": "mech",
+  "description": "Levels enemy ground entities and units.",
+  "speed": 0.60,
+  "hitSize": 10,
+  "rotateSpeed": 12,
+  "targetAir": false,
+  "health": 8000,
+  "armor": 10,
+  "mechFrontSway": 0.3,
+  "mechSideSway": 0.3,
+  "mechStepParticles": true,
+  "mechStepShake": 0.8,
+  "weapons": [
+    {
+      "name": "GroundZero",
+      "reload": 2,
+	  "shootOnDeath ":false,
+      "shootSound": "explosion",
+      "bullet": {
+		"collidesTiles":false,
+		"collides":true,
+		"hitSound":"explosion",
+		"rangeOverride": 10,
+		"speed":0,
+        "splashDamageRadius":26,
+        "instantDisappear":true,
+        "splashDamage": 40,
+        "killShooter":false,
+        "hittable":false,
+	  "collidesAir":true}
+	}
+        ],
+}

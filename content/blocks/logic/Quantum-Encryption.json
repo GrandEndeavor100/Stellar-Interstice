@@ -5,13 +5,13 @@
 "health": 3200,
 "size": 1,
 "instructionsPerTick": 100,
-"range": 1000,
+"range": 1800,
 "consumes": {
   "power": 2
 }
 "requirements": [
-  {"item":"lead","amount":100},
-  {"item":"silicon","amount":100},
+  {"item":"Logic-One","amount":100},
+  {"item":"Logic-Zero","amount":100},
   {"item":"Quantum-World","amount":2}
 ],
 "category": "logic"

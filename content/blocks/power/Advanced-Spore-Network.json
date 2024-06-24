@@ -8,12 +8,12 @@
   "maxNodes": 4,
   "requirements": [
     {
-      "item": "spore-pod",
-      "amount": 100
+      "item": "Logic-Zero",
+      "amount": 500
     },
 	{
-      "item": "lead",
-      "amount": 100
+      "item": "Logic-One",
+      "amount": 400
     }
   ],
   "category": "power",

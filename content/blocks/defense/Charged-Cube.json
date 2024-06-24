@@ -11,20 +11,12 @@
   "health": 3000,
   "size": 2,
   "requirements": [
-    {
-      "item": "plastanium","amount": 100
-      
-    },
-	 {
-      "item": "phase-fabric","amount": 100
-      
-    },
 	{
       "item": "Plasma-Orb","amount": 100
       
     },
 	{
-      "item": "copper","amount": 400
+      "item": "Logic-Zero","amount": 400
       
     },
 	{

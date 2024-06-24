@@ -1,0 +1,43 @@
+{
+  "type": "GenericCrafter",
+  "name": "Economist",
+  "description": "Creates coins from logic elements.",
+  "outputItem": {
+        "item": "Coin",
+        "amount": 1
+    },
+  "health": 600,
+  "itemCapacity": 40,
+  "size": 2,
+  "craftTime": 0.6,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 0.02,
+    "items": {
+      "items": [
+        {
+          "item": "Logic-Zero",
+          "amount": 4
+        },
+		 {
+          "item": "Logic-One",
+          "amount": 4
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "Logic-Zero",
+      "amount": 13
+    },
+    {
+      "item": "Logic-One",
+      "amount": 19
+    }
+  ],
+  "category": "crafting"
+}

@@ -19,7 +19,7 @@
   "requirements": [
   {"item":"graphite","amount":100},
   {"item":"silicon","amount":120},
-  {"item":"titanium","amount":80}
+  {"item":"Logic-One","amount":80}
   ],
   "category": "turret"
 }

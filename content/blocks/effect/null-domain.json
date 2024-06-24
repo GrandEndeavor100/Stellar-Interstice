@@ -3,18 +3,14 @@
     "name": "Null Domain",
     "description": "Creates a domain field that covers a vast area.",
     "size": 3,
-    "health": 800,
+    "health": 2000,
     "radius": 300,
-    "shieldHealth": 1500,
+    "shieldHealth": 3000,
     "cooldownNormal": 1.1,
     "cooldownBrokenBase": 0.9,
     "category": "effect",
     "requirements": [
-        {"item": "copper", "amount": 300},
-        {"item": "silicon", "amount": 200},
-        {"item": "titanium", "amount": 100},
-	      {"item": "thorium", "amount": 100},
-	      {"item": "plastanium", "amount": 60}
+        {"item": "Logic-Zero", "amount": 3000}
     ],
     "consumes": {
 		  "power": 5

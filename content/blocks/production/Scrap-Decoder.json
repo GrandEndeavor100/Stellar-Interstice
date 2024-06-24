@@ -1,0 +1,29 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Scrap Decoder",
+    "description": "Decodes scrap from logic elements.",
+    "health": 100,
+    "size": 2,
+    "hasItems": true,
+    "craftTime": 120,
+    "itemCapacity": 2,
+    "liquidCapacity": 250,
+    "buildCostMultiplier": 1.0,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "scrap",
+        "amount": 2
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 20
+        },
+		{
+            "item": "Logic-One",
+            "amount": 20
+        }
+    ],
+    "category": "crafting"
+}

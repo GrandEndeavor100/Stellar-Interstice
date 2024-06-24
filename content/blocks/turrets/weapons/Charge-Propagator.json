@@ -5,13 +5,13 @@
   "description": "Releases tremendous lines of lighting covering a large distance.",
   "size": 2,
   "range": 880,
-  "reload": 12,
+  "reload": 120,
   "shootSound": "spark",
   "shootCone": 30,
   "shootType": {
     "type": "LightningBulletType",
     "lightningLength": 600,
-    "damage": 7
+    "damage": 2
   },
   "rotateSpeed": 60,
   "consumes": {
@@ -28,11 +28,11 @@
   "recoil": 0.5,
   "requirements": [
     {
-      "item": "copper",
+      "item": "Logic-Zero",
       "amount": 150
     },
     {
-      "item": "lead",
+      "item": "Logic-One",
       "amount": 150
     },
     {

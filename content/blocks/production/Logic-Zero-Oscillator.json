@@ -1,0 +1,30 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Logic Zero Oscillator",
+    "description": "From the endless nothingness, the zero that makes up its elements is extracted.",
+    "health": 6,
+    "size": 2,
+    "hasPower": false,
+    "hasItems": true,
+    "craftTime": 120,
+    "itemCapacity": 2,
+    "liquidCapacity": 250,
+    "buildCostMultiplier": 1.0,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Logic-Zero",
+        "amount": 2
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 0
+        },
+        {
+            "item": "Logic-One",
+            "amount": 0
+        }
+    ],
+    "category": "crafting"
+}

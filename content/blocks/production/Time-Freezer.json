@@ -1,0 +1,50 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Time Freezer",
+    "description": "Suspends a brief moment of time for all eternity. Requires Cryo-Orb to cool down.",
+    "health": 900,
+    "size": 4,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 1000,
+    "itemCapacity": 30,
+    "liquidCapacity": 250,
+    "buildCostMultiplier":1.0,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Time-Fragment",
+        "amount": 1
+    },
+    "consumes": {
+        "power": 100,
+        "items": {
+	  "items":  [
+	  {
+		  "item": "Cryo-Orb",
+		"amount": 4}
+	  ]
+	 }
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 30
+        },
+        {
+            "item": "Logic-One",
+            "amount": 60
+        },
+        {
+            "item": "graphite",
+            "amount": 90
+        },
+        {
+            "item": "silicon",
+		"amount": 120},
+		{"item":"Cryo-Orb","amount":150},
+		{"item":"Quantum-World","amount":8},
+		{"item":"Anti-matter","amount":20}
+    ],
+    "category": "crafting"
+}

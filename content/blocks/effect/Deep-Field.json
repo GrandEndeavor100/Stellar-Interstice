@@ -1,0 +1,22 @@
+{
+    "type": "BaseShield",
+    "name": "Deep Field",
+    "description": "Creates a micro domain field that induces a square restriction that prevents the vectorial motion of any object incident on the circle.",
+	"rebuildable":true,
+    "size": 1,
+	"smoothRadius":60,
+	"sides":0,
+	"rotate":46,
+	"radius":60,
+    "health": 800,
+    "requirements": [
+        {"item": "Cryo-Orb", "amount": 30},
+        {"item": "silicon", "amount": 20},
+	      {"item": "Plasma-Orb", "amount": 10},
+	      {"item": "Spatial-Fabric", "amount": 6}
+    ],
+    "consumes": {
+		  "power": 2
+	  },
+	      "category": "effect"
+}

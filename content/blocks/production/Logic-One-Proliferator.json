@@ -1,0 +1,26 @@
+{	
+    "type": "GenericCrafter",
+    "name": "Logic One Proliferator",
+    "description": " From nothingness comes identity.",
+    "health": 6,
+    "size": 2,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 120,
+    "itemCapacity": 2,
+    "liquidCapacity": 250,
+    "buildCostMultiplier": 1.0,
+    "craftEffect": "formsmoke",
+    "updateEffect": "freezing",
+    "outputItem": {
+        "item": "Logic-One",
+        "amount": 2
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 60
+        }
+    ],
+    "category": "crafting"
+}

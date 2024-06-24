@@ -25,11 +25,11 @@
 	}
 	"requirements": [
         {
-            "item": "copper",
+            "item": "Logic-Zero",
             "amount": 40
         },
 		{
-            "item": "lead",
+            "item": "Logic-One",
             "amount": 30
         },
         {

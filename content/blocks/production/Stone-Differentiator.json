@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Stone Differentiator",
+  "description": "Compresses sand in high temperature to derive stone.",
+  "outputItem": {
+        "item": "Stone",
+        "amount": 2
+    },
+  "health": 1000,
+  "itemCapacity": 60,
+  "size": 2,
+  "craftTime": 2,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 4,
+    "items": {
+      "items": [
+        {
+          "item": "sand",
+          "amount": 10
+        }
+      ]
+    }
+  },
+  "requirements": [
+
+    {
+      "item": "Logic-Zero",
+      "amount": 60
+    },
+    {
+      "item": "Logic-One",
+      "amount": 60
+    }
+	
+  ],
+  "category": "crafting"
+}

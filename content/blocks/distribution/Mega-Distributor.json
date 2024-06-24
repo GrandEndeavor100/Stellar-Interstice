@@ -1,17 +1,15 @@
 {
 "name": "Mega Distributor",
 "type":"Router",
-"description": "More advanced distribution logistics",
+"description": "More advanced distribution logistics.(This name consists of 59 zeores and 61 Ones in binary format).",
 "category": "distribution",
 "health":6000,
 "itemCapacity":6,
 "size":3,
 "speed":36,
 "requirements": [
-	{"item": "copper","amount":400},
-	{"item": "thorium","amount":1000},
-	{"item": "Cryo-Orb","amount":400},
-	{"item": "Frozen-Ice","amount":40}
+	{"item": "Logic-Zero","amount":59},
+	{"item": "Logic-One","amount":61}
 	
 ]
 "category": "distribution"

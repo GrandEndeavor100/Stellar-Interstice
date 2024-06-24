@@ -17,20 +17,12 @@
     },
     "requirements": [
         {
-            "item": "copper",
+            "item": "Logic-Zero",
             "amount": 30
         },
         {
-            "item": "metaglass",
+            "item": "Logic-One",
             "amount": 60
-        },
-        {
-            "item": "graphite",
-            "amount": 34
-        },
-        {
-            "item": "silicon",
-            "amount": 18
         }
     ],
     "category": "production"

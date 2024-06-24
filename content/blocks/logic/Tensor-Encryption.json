@@ -5,11 +5,10 @@
 "health": 800,
 "size": 1,
 "instructionsPerTick": 40,
-"range": 320,
+"range": 460,
 "requirements": [
-  {"item":"lead","amount":20},
-  {"item":"silicon","amount":10},
-  {"item":"sand","amount":20}
+  {"item":"Logic-One","amount":20},
+  {"item":"Logic-Zero","amount":10}
 ],
 "category": "logic"
 }

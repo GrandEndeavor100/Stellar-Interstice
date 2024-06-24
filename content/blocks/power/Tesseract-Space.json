@@ -1,0 +1,14 @@
+{
+  "type": "StorageBlock",
+  "name":"Tesseract Space",
+  "description":" Uses four spatial fabrics each corresponding to a spatial dimension to create a tesseract class Hyperspace. Being a four dimensional space, the block can store large quantities of three-dimensional objects.",
+  "size": 3,
+  "health": 4000,
+  "itemCapacity": 10000,
+  "category": "effect",
+  "requirements": [
+    "Logic-Zero/100",
+    "Logic-One/100",
+    "Spatial-Fabric/4"
+  ]
+}
