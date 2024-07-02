@@ -1,8 +1,8 @@
 {
   "type": "flying",
-  "name": "[orange]BombFly;",
+  "name": "[orange]Outburst",
   "description": "A miniature drone missiles system that encapsulates a small explosive payload. When assimilated in swarms, deals a powerful force.",
-  "speed": 3,
+  "speed": 4,
   "flying": true,
   "health": 150,
   "armor": 1,
@@ -27,5 +27,5 @@
 	  "collidesAir":true}
 	}
         ],
-  "hitSize": 6
+  "hitSize": 1
 }
