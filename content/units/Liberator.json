@@ -1,7 +1,7 @@
 {
   "type": "flying",
   "name": "[green]Liberator;",
-  "description": "A  End-level missile device with a controllable guided system offering an anti-matter explosive payload.",
+  "description": "An  End-level missile device with a controllable guided system offering an anti-matter explosive payload.",
   "speed": 3,
   "flying": true,
   "health": 600,
@@ -19,13 +19,13 @@
 		"hitSound":"explosion",
 		"rangeOverride": 300,
 		"speed":0,
-        "splashDamageRadius":550,
+        "splashDamageRadius":600,
         "instantDisappear":true,
-        "splashDamage": 600,
+        "splashDamage": 777,
         "killShooter":true,
         "hittable":false,
 	  "collidesAir":true}
 	}
         ],
-  "hitSize": 6
+  "hitSize": 4
 }
