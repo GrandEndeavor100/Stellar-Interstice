@@ -1,0 +1,13 @@
+{
+"type": "Wall",
+"name":"Lucid",
+"description":"A  transparent or colourless invisible slab. Can be targetted by enemies.,
+"health": 300,
+"flashHit": false,
+"requirements": [
+{ "item":"Logic-Zero","amount":100}
+],
+"size": 1,
+"solid": true,
+"category": "defense"
+} 
