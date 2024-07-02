@@ -1,6 +1,6 @@
 {
   "type": "flying",
-  "name": "[green]Suppressor;",
+  "name": "[green]Suppressor",
   "description": "A medium-level guided missile system. Possess turbo boosters that increases its speed by a lot.",
   "speed":6,
   "flying": true,
@@ -17,11 +17,11 @@
 		"collidesTiles":false,
 		"collides":false,
 		"hitSound":"explosion",
-		"rangeOverride": 300,
+		"rangeOverride": 400,
 		"speed":0,
         "splashDamageRadius":300,
         "instantDisappear":true,
-        "splashDamage": 400,
+        "splashDamage": 500,
         "killShooter":true,
         "hittable":false,
 	  "collidesAir":true}
