@@ -1,13 +1,13 @@
 {
   "name": "Chromo-Prism",
-  "description": "Perfoms internal reflection on incident energy and reciprocate them back.  Creates an optical magnification illusion for its immediate locality making the wall appear larger than it physically is.",
+  "description": "Perfoms internal reflection on incident energy and reciprocate them back.",
   "type": "Wall",
   "insulated": false,
   "absorbLasers": false,
   "flashHit": true,
   "chanceDeflect":1200,
   "health": 2800,
-  "size": 2,
+  "size": 4,
   "requirements": [
     {
       "item": "Logic-Zero","amount": 100
