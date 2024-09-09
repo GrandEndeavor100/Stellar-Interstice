@@ -1,6 +1,6 @@
 {
 	"type": "PowerTurret",
-	"name": "owner",
+	"name": "Overseer",
 	"description": "Own a target.",
 	"health":1200,
 	"targetAir": true,
@@ -17,15 +17,16 @@
 	"range": 340,
 "shootType":{
   "type":"pointBulletType",
-  "damage":10,
-  "lightningColor":" bbdefb",
-  "lightning":10,
-  "lightningLength":10,
-  "lightningDamage":10,
-  "ammoMultiplier":4
+  "damage":100,
+  "lightningColor":"34ebd8",
+  "lightning":12,
+  "lightningLength":20
+6,
+  "lightningDamage":20,
+  "ammoMultiplier":1,
   "speed":400,
-"trailSpacing":20,
-"trailColor":"90caf9" 
+"trailSpacing":80,
+"trailColor":"34cfeb" 
 }
 
 
