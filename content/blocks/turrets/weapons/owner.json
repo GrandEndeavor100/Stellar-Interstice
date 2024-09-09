@@ -12,7 +12,7 @@
 " shootSound":" laser",
 
  "haspower":true,
-"poweruse":6,
+"poweruse":12,
 	"rotateSpeed": 22,
 	"range": 340,
 "shootType":{
