@@ -16,6 +16,10 @@
   "consumes": {
     "power": 4
   },
+"shootType": {
+  "type": "ContinuousLaserBulletType",
+  "trailColor":"42c8f5"}
+,
   "requirements": [
   {"item":"graphite","amount":100},
   {"item":"silicon","amount":120},
