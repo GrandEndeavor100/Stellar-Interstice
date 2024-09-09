@@ -1,5 +1,5 @@
 {
-	"type": "ItemTurret",
+	"type": "PowerTurret",
 	"name": "owner",
 	"description": "Own a target.",
 	"health":1200,
@@ -9,19 +9,26 @@
 	"inaccuracy": 2,
 	"reload": 20,
 	"shootCone": 20,
+" shootSound":" laser",
+
+ "haspower":true,
+"poweruse":6,
 	"rotateSpeed": 22,
 	"range": 340,
-	"ammoTypes": {
-		"Plasma-Orb": {
-			"speed": 8.6,
-			"damage": 10,
-			"knockback": 400,
-			"width": 7,
-			"height": 9,
-			"shootEffect": "explosion",
-			"ammoMultiplier": 1,
-		}
-	}
+"shootType":{
+  "type":"pointBulletType",
+  "damage":10,
+  "lightningColor":" bbdefb",
+  "lightning":10,
+  "lightningLength":10,
+  "lightningDamage":10,
+  "ammoMultiplier":4
+  "speed":400,
+"trailSpacing":20,
+"trailColor":"90caf9" 
+}
+
+
 	"requirements": [
         {
             "item": "copper",
