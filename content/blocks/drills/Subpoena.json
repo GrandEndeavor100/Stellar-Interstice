@@ -1,0 +1,33 @@
+{	
+    "type": "SolidPump",
+    "name": "Subpoena",
+    "description": " Breaks into the shroud realm and solicit a flame entity.",
+    "health": 600,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "liquidCapacity": 60,
+	"pumpAmount": 0.16,
+	"rotateSpeed": 1.6,
+	"result": "Void-Fluid",
+	"baseEfficiency": 0.64,
+	"attribute": "heat",
+    "consumes": {
+        "power":0.6
+    },
+    "requirements": [
+        {
+            "item": "Plasma-Orb",
+            "amount": 10
+        },
+        {
+            "item": "Logic-Zero",
+            "amount": 60
+        },
+        {
+            "item": "Anti-matter",
+            "amount":1
+        }
+    ],
+    "category": "production"
+}
