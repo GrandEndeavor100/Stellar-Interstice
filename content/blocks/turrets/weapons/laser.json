@@ -6,7 +6,7 @@
 "shootDuration": 600,
 "health": 1960,
 "size": 2,
-"range": 300,
+"range": 400,
 "consumes": {
   "power": 0.4,
   "coolant": {
