@@ -3,14 +3,14 @@
   "name": "Coal Pressurizer",
   "description": "Pressurizes oil into packets of discretecoal.Each packet contains 4 coal.",
   "outputItem": {
-    "item": "pyratite",
+    "item": "coal",
     "amount": 4
   },
   "health": 300,
   "itemCapacity": 40,
   "liquidCapacity": 60,
   "size": 2,
-  "craftTime": 60,
+  "craftTime": 20,
   "hasPower": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
