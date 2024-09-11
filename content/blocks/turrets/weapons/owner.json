@@ -19,6 +19,8 @@
 "shootType":{
   "type":"pointBulletType",
   "damage":100,
+  "width":8,
+  "height":6,
   "lightningColor":"34ebd8",
   "lightning":12,
   "lightningLength":20,
