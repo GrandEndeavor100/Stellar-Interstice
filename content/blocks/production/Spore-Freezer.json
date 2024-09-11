@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Spore Freezer",
+  "description": Condenses spore flux into spore frost.",
+  "outputItem": {
+    "liquid": "spore-frost",
+    "amount": 0.8
+  },
+  "health": 300,
+  "itemCapacity": 40,
+  "liquidCapacity": 60,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power":0.1 ,
+    "liquid": {
+            "liquid": "liquid-spore-flux",
+            "amount": 1.0
+        }
+  },
+  "requirements": [
+
+    {
+      "item": "Stone",
+      "amount": 10
+    },
+    {
+      "item": "Logic-Zero",
+      "amount": 10
+    },
+    {
+      "item": "Logic-One",
+      "amount": 20
+    }
+  ],
+  "category": "crafting"
+}
