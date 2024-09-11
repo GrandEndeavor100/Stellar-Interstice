@@ -27,6 +27,10 @@
 "frontColor": "a83a32",
  "backColor": " 120103",
  "lightColor": "120601",
+"trailColor": "ff6666",
+ "trailWidth": 5,
+ "trailLength": 20,
+ "trailEffect": "none",
 			"hitEffect": {
 			  "type": "MultiEffect",
 			  "lifetime": 70,
