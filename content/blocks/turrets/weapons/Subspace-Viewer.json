@@ -23,6 +23,7 @@
 			"ammoMultiplier": 2,
 			"homingPower": 0.6,
 			"homingRange": 30,
+" pierce":true,
                            "sprite":"circle-bullet",
 "frontColor": "eb4034",
  "backColor": " eb5b34",
