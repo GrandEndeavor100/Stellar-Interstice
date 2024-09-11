@@ -19,11 +19,11 @@
       "items": [
         {
           "item": "Logic-Zero",
-          "amount": 4
+          "amount": 2
         },
 		 {
           "item": "Logic-One",
-          "amount": 4
+          "amount": 2
         }
       ]
     }
