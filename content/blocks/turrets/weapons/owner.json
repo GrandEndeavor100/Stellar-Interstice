@@ -8,7 +8,7 @@
 	"size": 3,
 	"inaccuracy": 2,
 	"reload": 20,
-	"shootCone": 7,
+	"shootCone": 2,
 " shootSound":" laser",
 
  "haspower":true,
