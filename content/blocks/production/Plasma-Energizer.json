@@ -17,7 +17,7 @@
         "amount": 4
     },
     "consumes": {
-        "power": 10.8
+        "power": 50
     },
     "requirements": [
         {
