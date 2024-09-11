@@ -24,7 +24,7 @@
 			"homingPower": 0.6,
 			"homingRange": 30,
                            "sprite":"circle-bullet",
-"frontColor": "120103",
+"frontColor": "050001",
  "backColor": " a83a32",
  "lightColor": "a84832",
 			"hitEffect": {
