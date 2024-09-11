@@ -19,14 +19,11 @@
 "shootType":{
   "type":"pointBulletType",
   "damage":0,
-  "lightningColor":"34ebd8",
-  "lightning":12,
-  "lightningLength":20,
-  "lightningDamage":20,
-  "ammoMultiplier":1,
-  "speed":400,
-"trailSpacing":80,
-"trailColor":"34cfeb" 
+"splashDamageRadius":600,
+"instantDisappear":true,
+"splashDamage": 20,
+"ammoMultiplier":1,
+ "speed":400
 }
 
 
