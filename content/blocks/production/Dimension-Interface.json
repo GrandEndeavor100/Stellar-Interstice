@@ -10,12 +10,12 @@
   "itemCapacity": 100,
   "liquidCapacity": 60,
   "size": 2,
-  "craftTime": 60,
+  "craftTime": 30,
   "hasPower": true,
   "hasItems": true,
   "updateEffect": "smeltsmoke",
   "consumes": {
-    "power":37777 ,
+    "power":180 ,
     "liquid": {
             "liquid": "Void-Fluid",
             "amount": 1.0
