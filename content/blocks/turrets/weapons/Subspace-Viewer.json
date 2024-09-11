@@ -23,6 +23,10 @@
 			"ammoMultiplier": 2,
 			"homingPower": 0.6,
 			"homingRange": 30,
+                           "sprite":"circle-bullet",
+"frontColor": "a83a32",
+ "backColor": " 120103",
+ "lightColor": "120601",
 			"hitEffect": {
 			  "type": "MultiEffect",
 			  "lifetime": 70,
