@@ -1,9 +1,9 @@
 {
   "type": "GenericCrafter",
   "name": "Spore Freezer",
-  "description": Condenses spore flux into spore frost.",
+  "description": " Condenses spore flux into spore frost.",
   "outputItem": {
-    "liquid": "spore-frost",
+    "liquid": "Spore-Frost",
     "amount": 0.8
   },
   "health": 300,
