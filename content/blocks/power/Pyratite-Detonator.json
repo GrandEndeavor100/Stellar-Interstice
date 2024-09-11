@@ -15,7 +15,7 @@
 		  "item": "Logic-One",
 		  "amount": 300
 		},
-		{"item":"silicon","amount":30}
+		{"item":"Plasma-Orb","amount":10}
 	  ],
 	"category": "power"
 }
