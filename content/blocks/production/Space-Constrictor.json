@@ -2,7 +2,7 @@
     "type": "GenericCrafter",
     "name": "Space Constrictor",
     "description": "Constricts the expanse of space surrounding it and thereby creating micro fabrics of space. Requires Cryo-Orb to cool down.",
-    "health": 800,
+    "health": 3600,
     "size": 4,
     "hasPower": true,
     "hasItems": true,
