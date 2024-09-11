@@ -5,8 +5,8 @@
 	"size": 2,
 	"health":1000,
 	"itemCapacity": 10,
-	"powerProduction": 100,
-    "itemDuration": 60,
+	"powerProduction": 80,
+    "itemDuration": 400,
 
 	"consumes": {
 	 "items": {
