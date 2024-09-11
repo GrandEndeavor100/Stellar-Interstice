@@ -20,7 +20,11 @@
 			"status":"Frozen-Time",
 			"lifetime":260,
 			"shootEffect": "explosion",
-			"ammoMultiplier": 2
+			"ammoMultiplier": 2,
+                           "sprite":"circle-bullet",
+"frontColor": "3455eb",
+ "backColor": "347deb",
+ "lightColor": "050001"
 		}
 	}
 	"requirements": [
