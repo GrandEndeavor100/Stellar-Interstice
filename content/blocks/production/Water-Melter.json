@@ -28,16 +28,16 @@
   "requirements": [
 
     {
-      "item": "copper",
+      "item": "Logic-Zero",
       "amount": 30
     },
     {
-      "item": "lead",
+      "item": "Logic-One",
       "amount": 16
     },
     {
-      "item": "graphite",
-      "amount": 20
+      "item": "Coin",
+      "amount": 10
     }
   ],
   "category": "crafting"
