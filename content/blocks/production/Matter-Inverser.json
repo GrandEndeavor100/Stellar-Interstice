@@ -16,7 +16,7 @@
         "amount": 2
     },
     "consumes": {
-        "power": 90,
+        "power": 6,
         "items": {
 	  "items":  [
 	  {
