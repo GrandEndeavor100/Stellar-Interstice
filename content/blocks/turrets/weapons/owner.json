@@ -19,20 +19,19 @@
 "shootType":{
   "type":"pointBulletType",
   "damage":100,
-  "width":8,
-  "height":6,
+  "width":2,
+  "height":2,
   "lightningColor":"34ebd8",
   "lightning":12,
   "lightningLength":20,
   "lightningDamage":20,
   "ammoMultiplier":1,
   "speed":400,
-"trailSpacing":80,
+"trailSpacing":100,
 "trailColor":"34cfeb" 
-}
+},
 
-
-	"requirements": [
+"requirements": [
         {
             "item": "copper",
             "amount": 40
