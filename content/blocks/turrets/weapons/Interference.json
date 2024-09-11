@@ -18,8 +18,10 @@
 			"width": 7,
 			"height": 9,
 			"shootEffect": "explosion",
-			"ammoMultiplier": 1,
-			"sprite":"algorithm",
+			"ammoMultiplier": 10,
+			"sprite":"circle-bullet",
+   "frontColor":"0b0086
+
 			"status":"False-Algorithm"
 		}
 	}
