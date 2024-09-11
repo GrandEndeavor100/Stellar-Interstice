@@ -25,8 +25,8 @@
 			"homingRange": 30,
                            "sprite":"circle-bullet",
 "frontColor": "050001",
- "backColor": " a83a32",
- "lightColor": "a84832",
+ "backColor": " 050001",
+ "lightColor": "050001",
 			"hitEffect": {
 			  "type": "MultiEffect",
 			  "lifetime": 70,
