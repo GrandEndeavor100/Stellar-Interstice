@@ -24,7 +24,16 @@
 "splashDamage": 20,
 "ammoMultiplier":1,
  "speed":400
-}
+},
+"shootEffect":
+            {
+                "type": "WaveEffect",
+                "colorFrom": "66B1FF",
+                "colorTo": "000000",
+                "sizeFrom": 1,
+                "sizeTo": 1000,
+                "lifetime": 300
+            }
 
 
 	"requirements": [
