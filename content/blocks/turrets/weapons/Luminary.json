@@ -16,6 +16,7 @@
     "power":3.4},
 	"rotateSpeed": 100,
 	"range": 200,
+"shootOnDeath ":true,
 "shootType":{
   "type":"LaserBulletType",
   "damage":300,
