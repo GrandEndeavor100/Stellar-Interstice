@@ -1,1 +1,52 @@
-rt
+{
+	"type": "ItemTurret",
+	"name": "Reality Manipulator",
+	"description": "Returns the target to its Truth.",
+	"health":10000,
+	"targetAir": true,
+	"targetGround": true,
+	"size": 3,
+	"inaccuracy": 0,
+	"reload": 4,
+	"shootCone": 20,
+	"rotateSpeed": 22,
+	"range": 3777,
+	"pierce":true,
+	"ammoTypes": {
+		"Dimension-Essence": {
+			"speed": 8.6,
+			"damage": 777,
+			"knockback": 20,
+			"width": 7,
+			"height": 9,
+			"status":"Paradise",
+			"shootEffect": "explosion",
+			"ammoMultiplier": 1,
+			
+		}
+	}
+	"requirements": [
+        {
+            "item": "Spatial-Fabric",
+            "amount": 77
+        },
+		{
+            "item": "Time-Fragment",
+            "amount": 12
+        },
+        {
+            "item": "Quantum-World",
+            "amount": 30
+        },
+        {
+            "item": "Anti-matter",
+            "amount": 7
+        },
+		{
+            "item": "Dimension-Essence",
+            "amount": 3
+        },
+		
+    ],
+	"category": "turret"
+}
