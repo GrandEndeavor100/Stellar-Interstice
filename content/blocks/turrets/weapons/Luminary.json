@@ -1,0 +1,52 @@
+{
+	"type": "PowerTurret",
+	"name": "Luminary",
+	"description": "A beam of light that pierces trhouth everything.",
+	"health":100,
+	"targetAir": true,
+	"targetGround": true,
+	"size": 2,
+	"inaccuracy": 0,
+	"reload": 0,
+	"shootCone": 7,
+" shootSound":" laser",
+
+ "haspower":true,
+  "consumes": {
+    "power":3.4},
+	"rotateSpeed": 100,
+	"range": 200,
+"shootType":{
+  "type":"LaserBulletType",
+  "damage":300,
+"length":600,
+"width":20,
+"pierce":true,
+"splashDamageRadius":60,
+"instantDisappear":true,
+"splashDamage": 100,
+"chargeEffect":"lightningCharge",
+"colors":["ffc53d","ffffff","ffef12"]
+}
+
+
+	"requirements": [
+        {
+            "item": "copper",
+            "amount": 40
+        },
+		{
+            "item": "lead",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 24
+        },
+        {
+            "item": "Cryo-Orb",
+            "amount": 12
+        }
+    ],
+	"category": "turret"
+}
