@@ -18,6 +18,7 @@
 	"range": 200,
 "shootOnDeath ":true,
 "despawnEffect": "reactorExplosion",
+"killShooter":true,
 "shootType":{
   "type":"LaserBulletType",
   "damage":300,
@@ -28,12 +29,12 @@
 "instantDisappear":true,
 "splashDamage": 100,
 "chargeEffect":"lightningCharge",
-"killShooter":true,
+
 "hittable":false,
 "collidesAir":true,
 
 "colors":["ffc53d","ffffff","ffef12"]
-}
+},
 
 
 	"requirements": [
