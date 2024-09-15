@@ -26,26 +26,29 @@
 "instantDisappear":true,
 "splashDamage": 100,
 "chargeEffect":"lightningCharge",
+"killShooter":true,
+"hittable":false,
+"collidesAir":true,
 "colors":["ffc53d","ffffff","ffef12"]
 }
 
 
 	"requirements": [
         {
-            "item": "copper",
+            "item": "Logic-Zero",
             "amount": 40
         },
 		{
-            "item": "lead",
-            "amount": 30
+            "item": "Anti-matter",
+            "amount": 10
         },
         {
-            "item": "graphite",
+            "item": "Logic-One",
             "amount": 24
         },
         {
-            "item": "Cryo-Orb",
-            "amount": 12
+            "item": "Coin",
+            "amount": 2
         }
     ],
 	"category": "turret"
