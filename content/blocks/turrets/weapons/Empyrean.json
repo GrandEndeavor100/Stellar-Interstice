@@ -20,29 +20,42 @@
 			"width": 7,
 			"height": 9,
 			"status":"Paradise",
-			"shootEffect": "explosion",
 			"ammoMultiplier": 1,
 			
 		}
 	},
-"shootEffect":
+"shootEffect":{
+        "type": "MultiEffect",
+        "effects": [
             {
                 "type": "WaveEffect",
                 "colorFrom": "09cce6",
                 "colorTo": "000000",
                 "sizeFrom": 1,
-                "sizeTo": 1000,
+                "sizeTo": 777,
                 "lifetime": 300
+            },
+{
+                "type": "WaveEffect",
+                "colorFrom": "09cce6",
+                "colorTo": "ffffff",
+                "sizeFrom": 1,
+                "sizeTo": 777,
+                "lifetime": 200
             }
 
 	"requirements": [
+{
+            "item": "Logic-Zero",
+            "amount": 100
+        },
         {
             "item": "Spatial-Fabric",
-            "amount": 77
+            "amount": 24
         },
 		{
             "item": "Time-Fragment",
-            "amount": 12
+            "amount": 24
         },
         {
             "item": "Quantum-World",
@@ -50,11 +63,11 @@
         },
         {
             "item": "Anti-matter",
-            "amount": 7
+            "amount": 60
         },
 		{
             "item": "Dimension-Essence",
-            "amount": 3
+            "amount": 7
         },
 		
     ],
