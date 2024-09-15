@@ -21,6 +21,12 @@
 			"height": 9,
 			"status":"Paradise",
 			"ammoMultiplier": 1,
+"pierce":true,
+"splashDamageRadius":777,
+"splashDamage": 777,
+"hittable":false,
+"collidesAir":false,
+"reflectable":false
 			
 		}
 	},
