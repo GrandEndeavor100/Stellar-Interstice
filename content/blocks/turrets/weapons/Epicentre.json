@@ -17,18 +17,22 @@
 	"rotateSpeed": 180,
 	"range": 80,
 "shootType":{
-  "type":"pointBulletType",
+  "type":"LaserBulletType",
   "damage":0,
+"length":0,
+"width":0,
+"pierce":true,
 "splashDamageRadius":600,
-"instantDisappear":true,
-"splashDamage": 20,
-"ammoMultiplier":1,
- "speed":400
+"splashDamage": 100,
+"chargeEffect":"lightningCharge",
+"hittable":false,
+"collidesAir":true,
+"colors":["ffc53d","ffffff","ffef12"]
 },
 "shootEffect":
             {
                 "type": "WaveEffect",
-                "colorFrom": "66B1FF",
+                "colorFrom": "070c54",
                 "colorTo": "000000",
                 "sizeFrom": 1,
                 "sizeTo": 1000,
