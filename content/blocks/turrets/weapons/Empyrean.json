@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
-	"name": "Reality Manipulator",
-	"description": "Returns the target to its Truth.",
+	"name": "Empyrean",
+	"description": "Behold, a New World.",
 	"health":10000,
 	"targetAir": true,
 	"targetGround": true,
@@ -16,7 +16,7 @@
 		"Dimension-Essence": {
 			"speed": 8.6,
 			"damage": 777,
-			"knockback": 20,
+			"knockback": 1000,
 			"width": 7,
 			"height": 9,
 			"status":"Paradise",
@@ -24,7 +24,17 @@
 			"ammoMultiplier": 1,
 			
 		}
-	}
+	},
+"shootEffect":
+            {
+                "type": "WaveEffect",
+                "colorFrom": "09cce6",
+                "colorTo": "000000",
+                "sizeFrom": 1,
+                "sizeTo": 1000,
+                "lifetime": 300
+            }
+
 	"requirements": [
         {
             "item": "Spatial-Fabric",
