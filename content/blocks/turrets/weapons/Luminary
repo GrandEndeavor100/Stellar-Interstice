@@ -1,0 +1,49 @@
+{
+	"type": "PowerTurret",
+	"name": "Luminary",
+	"description": "Forces a seismic focus to be born beneath the crust and thereby propagates seismic waves over large distances.",
+	"health":100,
+	"targetAir": trueq,
+	"targetGround": true,
+	"size": 3,
+	"inaccuracy": 0,
+	"reload": 20,
+	"shootCone": 7,
+" shootSound":" laser",
+
+ "haspower":true,
+  "consumes": {
+    "power":3.4},
+	"rotateSpeed": 180,
+	"range": 80,
+"shootType":{
+  "type":"pointBulletType",
+  "damage":0,
+"splashDamageRadius":600,
+"instantDisappear":true,
+"splashDamage": 20,
+"ammoMultiplier":1,
+ "speed":400
+}
+
+
+	"requirements": [
+        {
+            "item": "copper",
+            "amount": 40
+        },
+		{
+            "item": "lead",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 24
+        },
+        {
+            "item": "Cryo-Orb",
+            "amount": 12
+        }
+    ],
+	"category": "turret"
+}
