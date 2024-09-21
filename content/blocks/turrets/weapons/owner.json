@@ -18,9 +18,7 @@
 	"range": 340,
 "shootType":{
   "type":"pointBulletType",
-  "damage":100,
-  "width":2,
-  "height":2,
+  "damage":10,
   "lightningColor":"34ebd8",
   "lightning":12,
   "lightningLength":20,
@@ -28,8 +26,28 @@
   "ammoMultiplier":1,
   "speed":400,
 "trailSpacing":100,
-"trailColor":"34cfeb" 
+"collidesTiles":true,
+"trailColor":"34cfeb",
+"trailEffect": {
+        "type": "ParticleEffect",
+                "particles": 10,
+                "length": 0,
+                "lifetime": 20,
+                "sizeFrom": 20,
+                "colorFrom": "425af5",
+                "colorTo": "428df5"
 },
+"despawnEffect": {
+                "type": "WaveEffect",
+                "lifetime": 20,
+                "sizeFrom": 0,
+                "sizeTo": 20,
+                "strokeFrom": 2,
+                "strokeTo": 0,
+                "colorFrom": "425af5",
+                "colorTo": "428df5"}
+},
+
 
 "requirements": [
         {
