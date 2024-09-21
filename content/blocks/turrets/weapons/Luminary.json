@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"name": "Luminary",
-	"description": "A beam of light that pierces trhouth everything.",
+	"description": "A beam of light that pierces through everything.",
 	"health":100,
 	"targetAir": true,
 	"targetGround": true,
@@ -16,9 +16,13 @@
     "power":3.4},
 	"rotateSpeed": 100,
 	"range": 200,
-"despawnEffect": "reactorExplosion",
-"instantDisappear":true,
 "killShooter":true,
+"shootEffect": "smokeCloud",
+"despawnEffect": "reactorExplosion",
+"hitEffect": "reactorExplosion",
+ "trailColor": "454545",
+    "trailEffect": "rocketSmoke",
+"ammoMultiplier": 1
 "shootType":{
   "type":"LaserBulletType",
   "damage":300,
