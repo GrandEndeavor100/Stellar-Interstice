@@ -1,0 +1,31 @@
+{
+  "type": "flying",
+  "name": "[gold]Precursor",
+  "description": "An  Apocalyptic guided missile system.",
+  "speed": 2,
+  "flying": true,
+  "health": 1000,
+  "armor": 10,
+  "engineOffset": 5.5,
+  "weapons": [
+    {
+      "name": "Detonator",
+      "reload": 24,
+	  "shootOnDeath ":true,
+      "shootSound": "explosion",
+      "bullet": {
+		"collidesTiles":false,
+		"collides":false,
+		"hitSound":"explosion",
+		"rangeOverride": 300,
+		"speed":0,
+        "splashDamageRadius":800,
+        "instantDisappear":true,
+        "splashDamage": 600,
+        "killShooter":true,
+        "hittable":false,
+	  "collidesAir":false}
+	}
+        ],
+  "hitSize": 6
+}
