@@ -8,7 +8,7 @@
   "armor": 1,
   "engineOffset": 5.5,
   "hitSize": 1
-}
+
   "weapons": [
     {
       "name": "Retriever",
@@ -24,6 +24,9 @@
   "type": "ContinuousLaserBulletType",
 "status": "Paradox",
   "trailColor":"42c8f5"}
+}
+]
+}
 
 
       
