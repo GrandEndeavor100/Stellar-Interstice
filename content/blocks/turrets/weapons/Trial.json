@@ -1,0 +1,44 @@
+{
+        "type": "ItemTurret",
+        "name": "Trial",
+        "description": "Accelerates metallic speheres to high velocities giving a detrimental collision with the target.",
+        "health":1200,
+        "targetAir": false,
+        "targetGround": true,
+        "size": 3,
+        "inaccuracy": 2,
+        "reload": 100,
+        "shootCone": 20,
+        "rotateSpeed": 22,
+        "range": 162,
+        "ammoTypes": {
+                "Metal-Cannon": {
+                        "speed": 8.6,
+                        "damage": 200,
+                        "width": 7,
+                        "height": 9,
+                        "shootEffect": "explosion",
+                        "ammoMultiplier": 1,
+                        "sprite":"metal-cannon-bullet"
+                }
+        }
+        "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 40
+        },
+                {
+            "item": "Logic-One",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 20
+        },
+        {
+            "item": "Cryo-Orb",
+            "amount": 10
+        }
+    ],
+        "category": "turret"
+}
