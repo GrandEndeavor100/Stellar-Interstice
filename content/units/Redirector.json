@@ -1,1 +1,11 @@
-4568
+{
+  "type": "flying",
+  "name": "[orange]Redirector",
+  "description": "A messenger drone that doesn't pose any threat to the enemy but is exremely fast and can cause massive disruptions. Strategically used for manipulating enemy behaviour causing them to load out of ammo or distract them.",
+  "speed": 10,
+  "flying": true,
+  "health": 600,
+  "armor": 1,
+  "engineOffset": 5.5,
+  "hitSize": 1
+}
