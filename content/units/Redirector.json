@@ -10,7 +10,7 @@
   "hitSize": 1
 
   "weapons": [
-    {  "type": "TractorBeamTurret",
+    { 
       "name": "Retriever",
 "force": 800,
   "targetAir": true,
@@ -22,7 +22,6 @@
   "rotateSpeed": 15,
 "bullet": {
   "type": "ContinuousLaserBulletType",
-"status": "Paradox",
   "trailColor":"42c8f5"}
 }
 ]
