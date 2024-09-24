@@ -10,7 +10,7 @@
   "hitSize": 1
 
   "weapons": [
-    {
+    {  "type": "TractorBeamTurret",
       "name": "Retriever",
 "force": 800,
   "targetAir": true,
