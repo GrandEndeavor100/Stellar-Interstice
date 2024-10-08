@@ -15,17 +15,19 @@
   "targetAir": true,
   "targetGround": true, 
  "range": 500,
-"reload":10,
+"reload":20,
+
+"rotateSpeed": 16,
+                        
+                        "status":"Perception",
+"bullet": {
+  "type": "BasicBulletType",
 "speed": 8.6,
 "damage": 30,
 "knockback": 1000,
 "width": 7,
 "height": 9,
-"rotateSpeed": 15,
-                        
-                        "status":"Perception",
-"bullet": {
-  "type": "ContinuousLaserBulletType",
+
   "trailColor":"42c8f5"}
 }
 ]
