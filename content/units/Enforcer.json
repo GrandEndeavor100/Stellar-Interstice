@@ -1,1 +1,28 @@
-hello world
+{
+  "type": "flying",
+  "name": "[red]Enforcer",
+  "description": "A messenger drone that doesn't pose any threat to the enemy but is exremely fast and can cause massive disruptions. Strategically used for manipulating enemy behaviour causing them to load out of ammo or distract them.",
+  "speed": 10,
+  "flying": true,
+  "health": 600,
+  "armor": 1,
+  "engineOffset": 5.5,
+  "hitSize": 1
+
+  "weapons": [
+    { 
+      "name": "Propellor",
+"force": 800,
+  "targetAir": true,
+  "targetGround": true,
+  "scaledForce": 800,
+ "range": 500,
+  "damage": 0.0,
+
+  "rotateSpeed": 15,
+"bullet": {
+  "type": "ContinuousLaserBulletType",
+  "trailColor":"42c8f5"}
+}
+]
+}
