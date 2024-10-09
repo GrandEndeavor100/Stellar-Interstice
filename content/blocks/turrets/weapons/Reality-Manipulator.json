@@ -59,8 +59,7 @@
                 }
         }
 			
-		}
-	}
+		},
 	"requirements": [
         {
             "item": "Spatial-Fabric",
