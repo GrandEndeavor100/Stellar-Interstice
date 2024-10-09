@@ -1,13 +1,14 @@
 {
 	"type": "PowerTurret",
 	"name": "Seismic Epicentre",
-	"description": "Forces a seismic focus to be born beneath the crust and thereby propagates seismic waves over large distances.",
+	"description": "Forces a seismic focus to be born beneath the crust and thereby propagates seismic waves over large distances.
+Note: Seismic waves can be absorbed by walls.",
 	"health":2000,
 	"targetAir": false,
 	"targetGround": true,
 	"size": 3,
 	"inaccuracy": 0,
-	"reload": 20,
+	"reload": 46,
 	"shootCone": 7,
 " shootSound":" laser",
 
@@ -32,7 +33,7 @@
 "shootEffect":
             {
                 "type": "WaveEffect",
-                "colorFrom": "070c54",
+                "colorFrom": "192342",
                 "colorTo": "000000",
                 "sizeFrom": 1,
                 "sizeTo": 1000,
