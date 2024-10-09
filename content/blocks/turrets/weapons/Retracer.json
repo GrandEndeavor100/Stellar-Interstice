@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
 	"name": "Retracer",
-	"description": "Forces the target to return to its initial position vectorially from its final position.",
+	"description": "Forces the target to return to a position which is vectorially backwords from its present position. [red] Note: Can be used to buy some extra time or keep the enemy engaged within a distance.",
 	"health":1200,
 	"targetAir": true,
 	"targetGround": true,
