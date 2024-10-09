@@ -7,7 +7,7 @@
 	"targetGround": true,
 	"size": 2,
 	"inaccuracy": 0,
-	"reload": 1,
+	"reload": 40,
 	"shootCone": 2,
 " shootSound":" laser",
 
