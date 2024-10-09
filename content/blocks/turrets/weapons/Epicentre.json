@@ -1,7 +1,7 @@
 {
 	"type": "PowerTurret",
 	"name": "Seismic Epicentre",
-	"description": "Forces a seismic focus to be born beneath the crust and thereby propagates seismic waves over large distances. Note: Seismic waves can be absorbed by walls.",
+	"description": "Forces a seismic focus to be born beneath the crust and thereby propagates seismic waves over large distances. [red]Note: Seismic waves can be absorbed by walls.",
 	"health":2000,
 	"targetAir": false,
 	"targetGround": true,
