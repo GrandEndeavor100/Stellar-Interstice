@@ -55,9 +55,8 @@
           "sizeTo": 0,
           "colorFrom": "1ceb9b"
           "colorTo": "1ccfeb"
-                        }]}
+                        }]
                 }
-        }
 			
 		},
 	"requirements": [
@@ -84,5 +83,4 @@
 		
     ],
 	"category": "turret"
-}
 }
