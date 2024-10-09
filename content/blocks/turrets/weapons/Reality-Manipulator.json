@@ -56,9 +56,7 @@
           "colorFrom": "1ceb9b"
           "colorTo": "1ccfeb"
                         }]
-                }
-			
-		},
+                },
 	"requirements": [
         {
             "item": "Spatial-Fabric",
