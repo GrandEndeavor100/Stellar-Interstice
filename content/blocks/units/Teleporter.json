@@ -3,6 +3,7 @@
   "name": "Teleporter",
   "description": "Teleportd larger blocks/units from location to another location",
   "size": 2,
+"health":600,
   "reload": 100,
   "chargeTime": 100,
   "range": 1400,
