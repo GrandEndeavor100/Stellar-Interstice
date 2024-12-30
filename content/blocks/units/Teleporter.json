@@ -15,9 +15,7 @@
   "regionSuffix": "-dark",
   "category": "units",
   "requirements": [
-    "graphite/100,",
-    "thorium/200,",
-    "silicon/200,",
-    "titanium/200"
+    "Spatial-Fabric/60,",
+    "Quantum-World/20"
   ]
 }
