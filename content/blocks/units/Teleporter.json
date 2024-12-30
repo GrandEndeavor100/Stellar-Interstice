@@ -1,0 +1,22 @@
+{
+  "type": "PayloadMassDriver",
+  "name": "Teleporter",
+  "description": "Teleportd larger blocks/units from location to another location",
+  "size": 2,
+  "reload": 100,
+  "chargeTime": 100,
+  "range": 1400,
+  "maxPayloadSize": 6,
+  "hasPower": true,
+  "consumes": {
+    "power": 4
+  },
+  "regionSuffix": "-dark",
+  "category": "units",
+  "requirements": [
+    "graphite/100,",
+    "thorium/200,",
+    "silicon/200,",
+    "titanium/200
+  ]
+}
