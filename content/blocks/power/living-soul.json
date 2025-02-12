@@ -1,0 +1,17 @@
+{
+        "type": "ConsumeGenerator",
+        "name": "[green]Living Soul",
+        "description": "[blue] Identity [red]of [green]all [purple]dimensions.",
+        "size": 3,
+        "explosionShake":0,
+        "explosionRadius": 80,
+        "explosionDamage":30000,
+        "itemCapacity": 10,
+        "requirements": [
+    {
+      "item": "Dimension-Essence",
+      "amount": 365
+    }
+  ],
+        "category": "power"
+}
