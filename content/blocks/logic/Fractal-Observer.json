@@ -3,7 +3,7 @@
 "description": "Runs a sequence of logic instructions in an infinite fractal.Entangles two quantum worlds.",
 "type": "LogicBlock",
 "health": 20000,
-"size": 1,
+"size": 3,
 "instructionsPerTick": 120,
 "range": 3600,
 "consumes": {
