@@ -5,8 +5,8 @@
   "flammability": 60.0,
   "explosiveness": 0.0,
   "color": "#3c00fa",
-  "heatCapacity": 0.0,
-  "maxSpread": 0,
+  "heatCapacity": 60.0,
+  "maxSpread": 0.8,
   "viscosity": 0,
   "lightColor": "#2d81ab"
 }
