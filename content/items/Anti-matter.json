@@ -4,8 +4,8 @@
   "localizedName": "Anti-matter",
   "description": "Subjecting particles to deep energy fields we obtain their inverse counterparts.",
   "color": "#ff5500",
-  "flammability":0.0,
+  "flammability":80.0,
   "explosiveness":0.0,
-  "temperature":80,
+  "temperature":80.0,
   "charge":0.0
 }
