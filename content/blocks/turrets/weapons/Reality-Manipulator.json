@@ -8,9 +8,9 @@
 	"size": 3,
 	"inaccuracy": 0,
 	"reload": 4,
-	"shootCone": 20,
+	"shootCone": 60,
 	"rotateSpeed": 22,
-	"range": 3777,
+	"range": 365,
 	"pierce":true,
 	"ammoTypes": {
 		"Dimension-Essence": {
