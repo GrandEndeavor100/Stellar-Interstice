@@ -4,7 +4,7 @@
   "localizedName": "Plasma Orb",
   "description": "A volatile orb containing highly energized plasma.",
   "color": "#ff5500",
-  "flammability":2.6,
+  "flammability":0.0,
   "explosiveness":4.2
-  "charge":10.0
+  "charge":100.0
 }
