@@ -1,0 +1,13 @@
+{
+    "name": "absorption-wall",
+    "health": 5000,
+    "category": "defense",
+    "requirements": [
+        { "item": "titanium", "amount": 50 },
+        { "item": "thorium", "amount": 30 }
+    ],
+    "size": 2,
+    "armor": 10,
+    "update": true, 
+    "absorbDamageBelow": 50
+}
