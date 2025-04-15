@@ -32,16 +32,16 @@
 "fragBullets": 3,
 	"fragAngle": 80,
 	
-	fragBullet: {
+	"fragBullet": {
 		"type": "BasicBulletType",
 		"status": "shocked",
-		"lightColor": "ffa500",
+		"lightColor": "ee82ee",
 		"statusDuration": 30,
 		"serrations": 0,
 		"lifetime": 15,
 		"length": 52,
 		"width": 17,
-		"fromColor": "ffa500",
+		"fromColor": "6a5acd",
 		"toColor": "ffa500",
 		"damage": 100,
 "trailColor": "ff6666", 
