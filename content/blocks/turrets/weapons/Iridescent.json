@@ -29,7 +29,7 @@
                         "trailWidth": 5,
                         "trailLength": 20,
                         "trailEffect": "none",
-"fragBullets": 3,
+"fragBullets": 2,
 	"fragAngle": 60,
 	
 	"fragBullet": {
@@ -48,7 +48,28 @@
   "trailWidth": 5,
   "trailLength": 20,
   "trailEffect": "none",
+                       "sprite":"circle-bullet",
+"fragBullets": 2,
+	"fragAngle": 60,
+	
+	"fragBullet": {
+		"type": "BasicBulletType",
+		"status": "shocked",
+		"lightColor": "00ff00",
+		"statusDuration": 30,
+		"serrations": 0,
+		"lifetime": 80,
+		"length": 52,
+		"width": 17,
+		"fromColor": "00e400",
+		"toColor": "00c600",
+		"damage": 100,
+"trailColor": "00a800", 
+  "trailWidth": 5,
+  "trailLength": 20,
+  "trailEffect": "none",
                        "sprite":"circle-bullet"
+	}
 	}
                         "hitEffect": {
                           "type": "MultiEffect",
