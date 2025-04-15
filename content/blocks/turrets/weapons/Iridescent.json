@@ -1,1 +1,107 @@
-rtyy
+{
+        "type": "ItemTurret",
+        "name": "Plasma Emitter",
+        "description": "Proliferates plasma orbs at high velocity. Has a self-inducing perturbation that perpetuates over large distances outlasting its physical range.",
+        "health":1000,
+        "targetAir": true,
+        "targetGround": true,
+        "size": 3,
+        "inaccuracy": 2,
+        "reload": 100,
+        "shootCone": 20,
+        "rotateSpeed": 22,
+        "range": 100,
+        "ammoTypes": {
+                "Plasma-Orb": {
+                        "speed": 4.2,
+                        "damage": 160,
+                        "width": 7,
+                        "height": 9,
+                        "shootEffect": "explosion",
+                        "status":"Blue-Flame",
+                        "lifetime":400,
+                        "sprite":"circle-bullet",
+                        "ammoMultiplier": 1,
+                        "frontColor": "115852",
+            "backColor": "3ca99f",
+                        "lightColor": "ff0000",
+                        "trailColor": "ff6666",
+                        "trailWidth": 5,
+                        "trailLength": 20,
+                        "trailEffect": "none",
+"fragBullets": 3,
+	"fragAngle": 80,
+	
+	fragBullet: {
+		"type": "ShrapnelBulletType",
+		"status": "shocked",
+		"lightColor": "ffa500",
+		"statusDuration": 30,
+		"serrations": 0,
+		"lifetime": 15,
+		"length": 52,
+		"width": 17,
+		"fromColor": "ffa500",
+		"toColor": "ffa500",
+		"damage": 100
+	}
+                        "hitEffect": {
+                          "type": "MultiEffect",
+                          "lifetime": 70,
+                        "effects": [
+        {
+          "type": "WaveEffect",
+          "lifetime": 10,
+          "sizeFrom": 0,
+          "sizeTo": 56,
+          "strokeFrom": 1,
+          "strokeTo": 0,
+          "colorFrom": "115852"
+          "colorTo":"3ca99f"
+        },
+                {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 20,
+          "lifetime": 15,
+          "length": 20,
+          "strokeFrom": 4,
+          "strokeTo": 2,
+          "lenFrom": 4,
+          "lenTo": 0,
+          "colorFrom": "ff0000",
+          "colorTo": "ff6666"
+        },
+                {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "lifetime": 30,
+          "length": 20,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "colorFrom": "3333ff"
+          "colorTo": "6699ff"
+        }
+                        ]}
+                }
+        }
+        "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 40
+        },
+                {
+            "item": "Logic-One",
+            "amount": 30
+        },
+        {
+            "item": "graphite",
+            "amount": 20
+        },
+        {
+            "item": "Cryo-Orb",
+            "amount": 10
+        }
+    ],
+        "category": "turret"
+}
