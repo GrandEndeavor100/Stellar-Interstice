@@ -48,6 +48,7 @@
   "trailWidth": 5,
   "trailLength": 20,
   "trailEffect": "none",
+                       "sprite":"circle-bullet"
 	}
                         "hitEffect": {
                           "type": "MultiEffect",
