@@ -1,6 +1,6 @@
 {
         "type": "ItemTurret",
-        "name": "Plasma Emitter",
+        "name": "Iridescent",
         "description": "Proliferates plasma orbs at high velocity. Has a self-inducing perturbation that perpetuates over large distances outlasting its physical range.",
         "health":1000,
         "targetAir": true,
@@ -25,7 +25,7 @@
                         "frontColor": "115852",
             "backColor": "3ca99f",
                         "lightColor": "ff0000",
-                        "trailColor": "ff6666",
+                        "trailColor": "ff6666", 
                         "trailWidth": 5,
                         "trailLength": 20,
                         "trailEffect": "none",
@@ -33,7 +33,7 @@
 	"fragAngle": 80,
 	
 	fragBullet: {
-		"type": "ShrapnelBulletType",
+		"type": "BasicBulletType",
 		"status": "shocked",
 		"lightColor": "ffa500",
 		"statusDuration": 30,
@@ -43,7 +43,11 @@
 		"width": 17,
 		"fromColor": "ffa500",
 		"toColor": "ffa500",
-		"damage": 100
+		"damage": 100,
+"trailColor": "ff6666", 
+  "trailWidth": 5,
+  "trailLength": 20,
+  "trailEffect": "none",
 	}
                         "hitEffect": {
                           "type": "MultiEffect",
