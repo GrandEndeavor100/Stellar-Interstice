@@ -15,7 +15,7 @@
 		"Plasma-Orb": {
 			"speed": 8.6,
 			"damage": 30,
-			"knockback": 2000,
+			"knockback": 20000,
 			"width": 7,
 			"height": 9,
 			"status":"Perception",
