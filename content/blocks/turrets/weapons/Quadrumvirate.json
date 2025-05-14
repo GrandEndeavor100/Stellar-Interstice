@@ -19,11 +19,16 @@
 "reload": 20,
 "recoil": 0,
 "shootSound": "laserbig",
+"shootX":0,
+"shootY":0,
 "shoot": {
   "type":"ShootBarrel",
 "shots":4,
 "firstShotDelay":30,
-" barrels":[0,0,0,0,0,90,0,0,180,0,0,270]
+"barrels":[0,0,0,
+0,0,90,
+0,0,180,
+0,0,270]
 },
 "shootType": {
   "type": "ContinuousLaserBulletType",
