@@ -1,0 +1,42 @@
+{
+"name": "Quadrumvirate",
+"type":"LaserTurret",
+"description": "Transmits a quaternary of lasers in each direction North,East,South and West.", 
+"liquidCapacity": 10,
+"shootDuration": 600,
+"health": 1960,
+"size": 2,
+"range": 400,
+"consumes": {
+  "power": 0.4,
+  "coolant": {
+    "type": "ConsumeCoolant",
+    "amount": 0.1
+  }
+},
+
+"rotateSpeed": 0,
+"reload": 20,
+"recoil": 0,
+"shootSound": "laserbig",
+"shoot": {
+  "type":"ShootBarrel",
+"shots":4,
+"firstShotDelay":30,
+" barrels":[0,0,0,0,0,90,0,0,180,0,0,270]
+},
+"shootType": {
+  "type": "ContinuousLaserBulletType",
+  "damage": 6,
+  "lifetime": 150,
+  "fadeTime": 10,
+  "length": 300,
+  "width": 4
+},
+"category": "turret",
+"requirements": [
+  {"item":"Logic-Zero","amount":10},
+  {"item":"Logic-One","amount":20},
+  {"item":"silicon","amount":40}
+  ]
+  }
