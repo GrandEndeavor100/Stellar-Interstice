@@ -1,1 +1,43 @@
-ty
+{
+"name": "Quaternion",
+"type":"LaserTurret",
+"description": "Transmits a quaternary of lasers in each direction at 45 degrees from North,East,South and West.", 
+"shootDuration": 4000,
+"health": 2004,
+"size": 2,
+"range": 400,
+"consumes": {
+  "power": 0.16,
+},
+
+"rotateSpeed": 0,
+"reload": 2,
+"recoil": 0,
+"shootSound": "laserbig",
+"shootX":0,
+"shootY":0,
+"shoot": {
+  "type":"ShootBarrel",
+"shots":4,
+"firstShotDelay":0,
+"barrels":[0,0,45,
+0,0,135,
+0,0,225,
+0,0,315]
+},
+"shootType": {
+  "type": "ContinuousLaserBulletType",
+  "damage": 1,
+  "lifetime": 150,
+  "fadeTime": 10,
+  "length": 300,
+  "width": 3.6,
+  "colors":["5534eb","ffffff","9b34eb"]
+},
+"category": "turret",
+"requirements": [
+  {"item":"Logic-Zero","amount":10},
+  {"item":"Logic-One","amount":20},
+  {"item":"silicon","amount":40}
+  ]
+  }
