@@ -1,1 +1,60 @@
-rurtiri
+{
+        "type": "PowerTurret",
+        "name": "Triumvirate",
+        "description": "A beam of light that pierces through everything.",
+        "health":1000,
+        "targetAir": true,
+        "targetGround": true,
+        "size": 2,
+        "inaccuracy": 0,
+        "reload": 40,
+        "shootCone": 2,
+" shootSound":" laser",
+
+ "haspower":true,
+  "consumes": {
+    "power":3.4},
+        "rotateSpeed": 100,
+        "range": 200,
+"killShooter":true,
+"shootEffect": "smokeCloud",
+"despawnEffect": "reactorExplosion",
+"hitEffect": "reactorExplosion",
+ "trailColor": "454545",
+    "trailEffect": "rocketSmoke",
+"ammoMultiplier": 1
+"shootType":{
+  "type":"LaserBulletType",
+  "damage":300,
+"length":600,
+"width":20,
+"pierce":true,
+"splashDamageRadius":60,
+"splashDamage": 100,
+"chargeEffect":"lightningCharge",
+"hittable":false,
+"collidesAir":true,
+"colors":["ffc53d","ffffff","ffef12"]
+},
+
+
+        "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 40
+        },
+                {
+            "item": "Anti-matter",
+            "amount": 10
+        },
+        {
+            "item": "Logic-One",
+            "amount": 24
+        },
+        {
+            "item": "Coin",
+            "amount": 2
+        }
+    ],
+        "category": "turret"
+}
