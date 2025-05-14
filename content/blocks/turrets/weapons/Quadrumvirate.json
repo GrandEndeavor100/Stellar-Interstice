@@ -11,7 +11,7 @@
 },
 
 "rotateSpeed": 0,
-"reload": 0,
+"reload": 2,
 "recoil": 0,
 "shootSound": "laserbig",
 "shootX":0,
