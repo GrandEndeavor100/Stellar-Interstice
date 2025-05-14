@@ -7,7 +7,7 @@
 "size": 2,
 "range": 400,
 "consumes": {
-  "power": 0.2,
+  "power": 0.16,
 },
 
 "rotateSpeed": 0,
@@ -27,11 +27,11 @@
 },
 "shootType": {
   "type": "ContinuousLaserBulletType",
-  "damage": 6,
+  "damage": 1,
   "lifetime": 150,
   "fadeTime": 10,
   "length": 300,
-  "width": 4,
+  "width": 3.6,
   "colors":["ff0000","ffffff","ff0088"]
 },
 "category": "turret",
