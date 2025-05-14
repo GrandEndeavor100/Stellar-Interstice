@@ -27,8 +27,8 @@
 },
 "shootType": {
   "type": "ContinuousLaserBulletType",
-  "damage": 1,
-  "lifetime": 150,
+  "damage": 0.5,
+  "lifetime": 2000,
   "fadeTime": 10,
   "length": 300,
   "width": 3.6,
