@@ -39,7 +39,8 @@
   "lifetime": 150,
   "fadeTime": 10,
   "length": 300,
-  "width": 4
+  "width": 4,
+  "colors":["0f5e09","ffffff","1cfa0c"]
 },
 "category": "turret",
 "requirements": [
