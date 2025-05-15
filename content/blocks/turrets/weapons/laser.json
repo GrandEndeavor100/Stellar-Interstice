@@ -14,14 +14,24 @@
     "amount": 0.1
   }
 },
-"rotateSpeed": 0,
+"rotateSpeed": 10,
 "reload": 20,
 "recoil": 0,
 "shootSound": "laserbig",
+"shootX":0,
+"shootY":0,
 "shoot": {
-  "type": "ShootSpread",
-  "shots": 1,
-  "spread": 4
+  "type":"ShootBarrel",
+"shots":8,
+"firstShotDelay":20,
+"barrels":[0,0,0,
+0,0,45,
+0,0,90,
+0,0,135,
+0,0,180,
+0,0,225,
+0,0,270,
+0,0,315]
 },
 "shootType": {
   "type": "ContinuousLaserBulletType",
