@@ -1,7 +1,7 @@
 {	
     "type": "SolidPump",
     "name": "Subpoena",
-    "description": " Breaks into the shroud realm and solicit a flame entity.",
+    "description": " Breaks into the shroud realm and solicit a cold entity.",
     "health": 600,
     "size": 2,
     "hasPower": true,
@@ -9,7 +9,7 @@
     "liquidCapacity": 60,
 	"pumpAmount": 0.16,
 	"rotateSpeed": 1.6,
-	"result": "Void-Fluid",
+	"result": "Spore-Frost",
 	"baseEfficiency": 0.64,
 	"attribute": "heat",
     "consumes": {
@@ -23,10 +23,6 @@
         {
             "item": "Logic-Zero",
             "amount": 60
-        },
-        {
-            "item": "Anti-matter",
-            "amount":1
         }
     ],
     "category": "production"
