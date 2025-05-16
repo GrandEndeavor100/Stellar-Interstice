@@ -1,0 +1,29 @@
+{        
+    "type": "SolidPump",
+    "name": "Stipulation",
+    "description": "Summons confined flame",
+    "health": 600,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "liquidCapacity": 60,
+        "pumpAmount": 0.16,
+        "rotateSpeed": 1.6,
+        "result": "Confined-Flame",
+        "baseEfficiency": 0.64,
+        "attribute": "heat",
+    "consumes": {
+        "power": 2.6
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 30
+        },
+        {
+            "item": "Logic-One",
+            "amount": 60
+        }
+    ],
+    "category": "production"
+}
