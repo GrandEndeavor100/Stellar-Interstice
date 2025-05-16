@@ -5,7 +5,7 @@
 "shootDuration": 4000,
 "health": 2004,
 "size": 2,
-"range": 280,
+"range": 206,
 "consumes": {
   "power": 0.16,
 },
@@ -30,7 +30,7 @@
   "damage": 0.5,
   "lifetime": 2000,
   "fadeTime": 10,
-  "length": 168,
+  "length": 206,
   "width": 3.6,
   "colors":["5534eb","ffffff","9b34eb"]
 },
