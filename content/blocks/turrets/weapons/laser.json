@@ -6,7 +6,7 @@
 "shootDuration": 600,
 "health": 1960,
 "size": 2,
-"range": 256,
+"range": 100,
 "consumes": {
   "power": 0.4,
   "coolant": {
@@ -38,7 +38,7 @@
   "damage": 4,
   "lifetime": 150,
   "fadeTime": 10,
-  "length": 300,
+  "length": 100,
   "width": 4,
   "colors":["0f5e09","ffffff","1cfa0c"]
 },
