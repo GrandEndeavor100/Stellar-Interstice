@@ -10,7 +10,7 @@
 	"reload": 4,
 	"shootCone": 20,
 	"rotateSpeed": 22,
-	"range": 3777,
+	"range": 377,
 	"pierce":true,
 	"ammoTypes": {
 		"Dimension-Essence": {
