@@ -4,14 +4,14 @@
   "name": "Ambivalence",
   "description": "Releases two dipole  lines of lighting covering a medium distance.",
   "size": 2,
-  "range": 880,
+  "range": 200,
   "reload": 120,
   "shootSound": "spark",
   "shootCone": 30,
   "shootType": {
     "type": "LightningBulletType",
-    "lightningLength": 600,
-    "damage": 2
+    "lightningLength": 200,
+    "damage": 6
   },
   "rotateSpeed": 60,
   "consumes": {
@@ -26,6 +26,15 @@
   "heatColor": "ff0000",
   "shootEffect": "lightningShoot",
   "recoil": 0.5,
+"shootX":0,
+"shootY":0,
+"shoot": {
+  "type":"ShootBarrel",
+"shots":2,
+"firstShotDelay":20,
+"barrels":[0,0,0,
+0,0,180]
+},
   "requirements": [
     {
       "item": "Logic-Zero",
@@ -36,7 +45,7 @@
       "amount": 150
     },
     {
-      "item": "graphite",
+      "item": "silicon",
       "amount": 30
     }
   ]
