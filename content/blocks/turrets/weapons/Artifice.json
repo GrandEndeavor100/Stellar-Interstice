@@ -1,1 +1,51 @@
-2
+{
+  "type": "PowerTurret",
+  "health": 1000,
+  "name": "Artifice",
+  "description": "Releases trident chain of lightning covering a medium distance.",
+  "size": 2,
+  "range": 300,
+  "reload": 120,
+  "shootSound": "spark",
+  "shootCone": 30,
+  "shootType": {
+    "type": "LightningBulletType",
+    "lightningLength": 300,
+    "damage": 4
+  },
+  "rotateSpeed": 60,
+  "consumes": {
+    "power": 0.18,
+    "coolant": {
+      "amount": 0.2
+    }
+  },
+  "targetAir": true,
+  "targetGround": true,
+  "pierce":true,
+  "heatColor": "ff0000",
+  "shootEffect": "lightningShoot",
+  "recoil": 0.5,
+"shoot": {
+  "type":"ShootBarrel",
+"shots":3,
+"firstShotDelay":20,
+"barrels":[0,0,0,
+0,0,120
+0,0,240]
+},
+  "requirements": [
+    {
+      "item": "Logic-Zero",
+      "amount": 150
+    },
+    {
+      "item": "Logic-One",
+      "amount": 150
+    },
+    {
+      "item": "silicon",
+      "amount": 30
+    }
+  ]
+}
