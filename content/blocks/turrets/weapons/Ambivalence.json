@@ -1,0 +1,43 @@
+{
+  "type": "PowerTurret",
+  "health": 1000,
+  "name": "Ambivalence",
+  "description": "Releases two dipole  lines of lighting covering a medium distance.",
+  "size": 2,
+  "range": 880,
+  "reload": 120,
+  "shootSound": "spark",
+  "shootCone": 30,
+  "shootType": {
+    "type": "LightningBulletType",
+    "lightningLength": 600,
+    "damage": 2
+  },
+  "rotateSpeed": 60,
+  "consumes": {
+    "power": 0.18,
+    "coolant": {
+      "amount": 0.2
+    }
+  },
+  "targetAir": true,
+  "targetGround": true,
+  "pierce":true,
+  "heatColor": "ff0000",
+  "shootEffect": "lightningShoot",
+  "recoil": 0.5,
+  "requirements": [
+    {
+      "item": "Logic-Zero",
+      "amount": 150
+    },
+    {
+      "item": "Logic-One",
+      "amount": 150
+    },
+    {
+      "item": "graphite",
+      "amount": 30
+    }
+  ]
+}
