@@ -26,6 +26,8 @@
   "heatColor": "ff0000",
   "shootEffect": "lightningShoot",
   "recoil": 0.5,
+"shootX":20,
+"shootY":20,
 "shoot": {
   "type":"ShootBarrel",
 "shots":3,
