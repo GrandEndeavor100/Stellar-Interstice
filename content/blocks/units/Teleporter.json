@@ -7,7 +7,7 @@
   "reload": 100,
   "chargeTime": 100,
   "range": 1400,
-  "maxPayloadSize": 6,
+  "maxPayloadSize": 7,
   "hasPower": true,
   "consumes": {
     "power": 4
