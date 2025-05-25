@@ -7,8 +7,7 @@
 "instructionsPerTick": 1,
 "range": 460,
 "requirements": [
-  {"item":"Wood-Log","amount":20},
-  {"item":"Logic-Zero","amount":10}
+  {"item":"Wood-Log","amount":20}
 ],
 "category": "logic"
 }
