@@ -21,7 +21,7 @@
 		"speed":0,
         "splashDamageRadius":800,
         "instantDisappear":true,
-        "splashDamage": 600,
+        "splashDamage": 19000,
         "killShooter":true,
         "hittable":false,
 	  "collidesAir":false}
