@@ -1,0 +1,14 @@
+{
+"name": "Wooden Processor",
+"description": "Runs a sequence of logic instructions in a loop with tremendous accuracy. Uses classical algorithm therefore is much slower than other processors. Its speed is equivalent to 1 tick every second. Can be used to precisely time every command with every second.",
+"type": "LogicBlock",
+"health": 400,
+"size": 1,
+"instructionsPerTick": 1,
+"range": 460,
+"requirements": [
+  {"item":"Wood-Log","amount":20},
+  {"item":"Logic-Zero","amount":10}
+],
+"category": "logic"
+}
