@@ -10,7 +10,7 @@
   "category": "effect",
   "size": 2,
   "range": 200,
-  "buildSpeed": 1,
+  "buildSpeed": 2,
   "consumes": {
     "power": 6,
     "liquid": "Spore-Frost/0.1"
