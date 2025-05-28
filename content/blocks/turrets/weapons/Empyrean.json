@@ -22,7 +22,7 @@
 			"status":"Paradise",
 			"ammoMultiplier": 1,
 "pierce":true,
-"splashDamageRadius":777,
+"splashDamageRadius":377,
 "splashDamage": 777,
 "hittable":false,
 "collidesAir":false,
@@ -35,7 +35,7 @@
         "effects": [
             {
                 "type": "WaveEffect",
-                "colorFrom": "09cce6",
+                "colorFrom": "1ba0e3",
                 "colorTo": "000000",
                 "sizeFrom": 1,
                 "sizeTo": 777,
@@ -43,7 +43,7 @@
             },
 {
                 "type": "WaveEffect",
-                "colorFrom": "ffffff",
+                "colorFrom": "34ebc6",
                 "colorTo": "000000",
                 "sizeFrom": 1,
                 "sizeTo": 777,
