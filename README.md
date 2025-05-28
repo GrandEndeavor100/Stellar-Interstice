@@ -1,2 +1,3 @@
 # Stellar-Interstice
- On a random day, all the civilizations joined forces to leave the dying state of the world in which they are inhabiting. They left in fleets of much grandeur and it was at that time when a vortex opened somewhere between the stars and they entered it where they had the encounter with the Beings. They acquired exotic technologies from them but little did they know that it was all part of a much greater story and that there was nothing random about that day.  The Exotic technologies include: Bombs and Nukes Guided missile systems Power manipulation devices Unconventional weapon systems and much more.
+ 
+Rare and Ethereal mod: Offers Bombs that can be manually detonated using a trigger,Torpedoes that can be manually controlled, defences which serve as offences, Spatial Barriers, Metaphysical weapon systems and Units and items with very unique properties strategic importance, New Organisms and much more.
