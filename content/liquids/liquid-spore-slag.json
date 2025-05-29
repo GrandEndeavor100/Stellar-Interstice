@@ -6,6 +6,7 @@
   "explosiveness": 0.0,
   "color": "#d9270f",
   "heatCapacity": 1.0,
+  "temperature":1.0
   "maxSpread": 0.6,
   "viscosity": 0,
   "lightColor": "#d9270f"
