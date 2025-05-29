@@ -6,7 +6,7 @@
   "explosiveness": 0.0,
   "color": "#f26382",
   "heatCapacity": 60.0,
-  "maxSpread": 2.0,
+  "maxSpread": 20.0,
   "temperature":2.0,
   "viscosity": 0.8,
   "lightColor": "#f26382"
