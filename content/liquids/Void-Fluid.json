@@ -4,10 +4,10 @@
   "description": "A consciousness that flows the void spaces between realms. Such spaces are accessed using quantum-worlds.",
   "flammability": 0.0,
   "explosiveness": 100.0,
-  "color": "#5b1cec",
+  "color": "#0ec460",
   "heatCapacity": 0.0,
 "temperature":0,
   "maxSpread": 0,
   "viscosity": 0,
-  "lightColor": "#5b1cec"
+  "lightColor": "#0ec460"
 }
