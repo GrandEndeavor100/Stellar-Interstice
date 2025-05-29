@@ -1,0 +1,40 @@
+{
+  "type": "GenericCrafter",
+  "name": "Cryo Proffer",
+  "description": "Spore Frost gets converted  to cryofluid.",
+  "outputLiquid": {
+    "liquid": "cryofluid",
+    "amount": 0.7
+  },
+  "health": 600,
+  "itemCapacity": 40,
+  "liquidCapacity": 70,
+  "size": 2,
+  "craftTime": 60,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 4.8,
+        "liquid": {
+            "liquid": "Spore-Frost",
+            "amount": 0.5
+        }
+  },
+  "requirements": [
+
+    {
+      "item": "graphite",
+      "amount": 150
+    },
+    {
+      "item": "silicon",
+      "amount": 78
+    },
+    {
+      "item": "titanium",
+      "amount": 150
+    }
+  ],
+  "category": "crafting"
+}
