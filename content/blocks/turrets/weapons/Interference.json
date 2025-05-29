@@ -20,7 +20,8 @@
 			"shootEffect": "explosion",
 			"ammoMultiplier": 10,
 			"sprite":"circle-bullet",
-   "frontColor":"0b0086
+   "frontColor":"0b0086",
+   "pierce":true,
 
 			"status":"False-Algorithm"
 		}
