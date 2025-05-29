@@ -4,10 +4,10 @@
   "description": "Molten version of spore dopped with minute amounts of pyratite powder. It possess extremely high flammability",
   "flammability": 100.0,
   "explosiveness": 0.0,
-  "color": "#d9270f",
+  "color": "#e0ac0d",
   "heatCapacity": 1.0,
   "temperature":1.0
   "maxSpread": 0.6,
   "viscosity": 0,
-  "lightColor": "#d9270f"
+  "lightColor": "#e0ac0d"
 }
