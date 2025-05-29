@@ -8,5 +8,6 @@
   "heatCapacity": 0.0,
   "maxSpread": 0.4,
   "viscosity": 0,
+  "temperature":-1.0,
   "lightColor": "#2d81ab"
 }
