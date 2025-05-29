@@ -4,10 +4,10 @@
   "description": "Frozen version of spore having mixed with cryo-orbs. Has very low flammability.",
   "flammability": -10.0,
   "explosiveness": 0.0,
-  "color": "#3c00fa",
+  "color": "#37e6e0",
   "heatCapacity": 0.0,
   "maxSpread": 0.4,
   "viscosity": 0,
   "temperature":-1.0,
-  "lightColor": "#2d81ab"
+  "lightColor": "#37e6e0"
 }
