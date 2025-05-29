@@ -4,10 +4,10 @@
   "description": "Using quantum worlds a communication with the mysterious organism coded [orange]Eternal-Flame wa established and small remanant of them were extracted. Genome sequencing on this being was performed and thereby reducing its self-replicating activity while still retaining its original persistent flame.",
   "flammability": 60.0,
   "explosiveness": 0.0,
-  "color": "#3c00fa",
+  "color": "#f26382",
   "heatCapacity": 60.0,
   "maxSpread": 0.8,
   "temperature":2.0,
   "viscosity": 0.5,
-  "lightColor": "#2d81ab"
+  "lightColor": "#f26382"
 }
