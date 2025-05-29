@@ -1,7 +1,7 @@
 {
   "type": "TractorBeamTurret",
   "name": "Diverger",
-  "description": "[cyan]This is an experimental weapon system which presumably acts as a  motion inhibiter that concentrates on a single unit but has yet been approved by the parliament.[/cyan]",
+  "description": "[cyan]This is an experimental weapon system which presumably acts as a  motion inhibiter that concentrates on a single unit but has  yet been not approved by the parliament.[/cyan]",
   "size": 2,
   "force": -1000,
   "targetAir": true,
