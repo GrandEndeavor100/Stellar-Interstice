@@ -1,1 +1,29 @@
-Flux
+{        
+    "type": "SolidPump",
+    "name": "Flux Overture",
+    "description": "Creates a bore within the atmosphere and extracts spore flux from it.",
+    "health": 600,
+    "size": 2,
+    "hasPower": true,
+    "hasLiquids": true,
+    "liquidCapacity": 60,
+        "pumpAmount": 0.16,
+        "rotateSpeed": 1.6,
+        "result": "slag",
+        "baseEfficiency": 0.64,
+        "attribute": "heat",
+    "consumes": {
+        "power": 2.6
+    },
+    "requirements": [
+        {
+            "item": "Logic-Zero",
+            "amount": 30
+        },
+        {
+            "item": "Logic-One",
+            "amount": 60
+        }
+    ],
+    "category": "production"
+}
