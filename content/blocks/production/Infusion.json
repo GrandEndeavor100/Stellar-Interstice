@@ -1,0 +1,36 @@
+{
+  "type": "GenericCrafter",
+  "name": "Slag Infusion",
+  "description": "Peremptorily converts [purple]spore flux[/purple] to [orange]spore slag.[/orange]",
+  "outputLiquid": {
+    "liquid": "liquid-spore-slag",
+    "amount": 0.7
+  },
+  "health": 500,
+  "itemCapacity": 40,
+  "liquidCapacity": 70,
+  "size": 2,
+  "craftTime": 30,
+  "hasPower": true,
+  "hasItems": true,
+  "updateEffect": "smeltsmoke",
+  "consumes": {
+    "power": 4.8,
+        "liquid": {
+            "liquid": "liquid-spore-flux",
+            "amount": 0.5
+        }
+  },
+  "requirements": [
+
+    {
+      "item": "Logic-Zero",
+      "amount": 150
+    },
+    {
+      "item": "Logic-One",
+      "amount": 76
+    }
+  ],
+  "category": "crafting"
+}
