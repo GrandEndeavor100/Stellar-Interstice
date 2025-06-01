@@ -5,7 +5,7 @@
 	"health":1200,
 	"targetAir": true,
 	"targetGround": true,
-	"size": 3,
+	"size": 5,
 	"inaccuracy": 2,
 	"reload": 20,
 	"shootCone": 20,
