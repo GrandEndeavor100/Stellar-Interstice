@@ -2,7 +2,7 @@
   "type": "PayloadMassDriver",
   "name": "Teleporter",
   "description": "Teleports larger blocks/units from location to another location",
-  "size": 2,
+  "size": 3,
 "health":600,
   "reload": 100,
   "chargeTime": 100,
