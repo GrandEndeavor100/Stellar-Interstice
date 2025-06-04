@@ -1,7 +1,7 @@
 {	
     "type": "SolidPump",
     "name": "Void Extractor",
-    "description": " Creates paths that connects to the subspace dimensions in the physical plane allowing the entry of fluid that flows between realms.",
+    "description": " Creates paths that connects to the subspace dimensions in the physical plane allowing the entry of fluid that flows in the void between realms.",
     "health": 600,
     "size": 2,
     "hasPower": true,
