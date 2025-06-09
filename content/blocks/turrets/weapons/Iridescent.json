@@ -178,11 +178,11 @@
         "requirements": [
         {
             "item": "Logic-Zero",
-            "amount": 40
+            "amount": 400
         },
                 {
             "item": "Logic-One",
-            "amount": 30
+            "amount": 300
         },
         {
             "item": "Fractal-Pebble",
