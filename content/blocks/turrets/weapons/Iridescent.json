@@ -12,7 +12,7 @@
         "rotateSpeed": 22,
         "range": 100,
         "ammoTypes": {
-                "Plasma-Orb": {
+                "Fractal-Pebble": {
                         "speed": 4.2,
                         "damage": 512,
                         "width": 60,
