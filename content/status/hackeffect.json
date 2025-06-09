@@ -4,7 +4,7 @@
   "color": "5ECBFF",
   "reapply": true,
   "localizedName": "Hack Effect",
-  "description": "Hacks enemy units, converting them to your team.",
+  "description": "Hacks enemy units, converting them to your team. [red]Still in trial",
   "effects": [
     {
       "type": "custom",
