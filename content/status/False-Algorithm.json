@@ -3,6 +3,6 @@
   "description":"Hacks into the system of the target and creates a false algorithm which prohibits the target from contructing buildings and mining resources.",
   "buildSpeedMultiplier": 0.0,
   "mineSpeedMultiplier":0.0,
-  "SpeedMultiplier":0.0,
+  "speedMultiplier":0.0,
   "effect": "redgeneratespark"
 }
