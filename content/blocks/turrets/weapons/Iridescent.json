@@ -17,6 +17,7 @@
                         "damage": 512,
                         "width": 60,
                         "height": 60,
+"knockback":100,
                         "shootEffect": "explosion",
                         "status":"Blue-Flame",
                         "lifetime":80,
