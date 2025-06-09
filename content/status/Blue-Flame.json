@@ -2,5 +2,5 @@
   "name": "Blue Flame",
   "damage":0.8,
   "speedMultiplier": 0.4,
-  "effect": "none"
+  "effect": "shootSmokeMissileColor"
 }
