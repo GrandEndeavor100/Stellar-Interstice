@@ -7,7 +7,7 @@
         "targetGround": true,
         "size": 3,
         "inaccuracy": 2,
-        "reload": 100,
+        "reload": 400,
         "shootCone": 20,
         "rotateSpeed": 22,
         "range": 100,
