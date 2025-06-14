@@ -1,7 +1,7 @@
 {
   "name": "Serenity",
   "description":"Existing in a serene state one becomes oblivious to its surroundings. As the target is oblivious to its surrounding, it therefore does not percieve anything as threats.",
-"speedMultiplier":300.0
+"speedMultiplier":30.0,
   "reloadMultiplier": 0.0,
   "healthMultiplier":0.5,
   "effect": "railTrail"
