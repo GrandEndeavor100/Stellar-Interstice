@@ -15,7 +15,7 @@
 	"Spatial-Fabric": {
     "type": "BasicBulletType",
     "speed": 3,
-	"status":"Spatial-Depression",
+	"status":"Serenity",
     "lifetime": 200,
     "damage":100,
     "splashDamage": 200,
@@ -23,13 +23,13 @@
     "homingPower": 0.3,
     "homingRange": 65,
     "sprite": "circle-bullet",
-    "width": 10,
-    "height": 10,
+    "width": 20,
+    "height": 20,
     "shrinkY": 0,
-    "frontColor": "010a0c",
-    "backColor": "010a0c",
-    "lightColor": "010a0c",
-    "trailColor": "52027d",
+    "frontColor": "660066",
+    "backColor": "cc0099",
+    "lightColor": "ff00ff",
+    "trailColor": "ff3399",
     "trailWidth": 5,
     "trailLength": 15,
     "trailEffect": "none",
@@ -78,7 +78,7 @@
   "Time-Fragment": {
     "type": "BasicBulletType",
     "speed": 3,
-	"status":"Frozen-Time"
+	"status":"Paradox"
     "lifetime": 600,
     "damage": 0,
     "splashDamage": 180,
