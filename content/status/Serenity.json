@@ -3,5 +3,5 @@
   "description":"Existing in a serene state one becomes oblivious to its surroundings. As the target is oblivious to its surrounding, it therefore does not percieve anything as threats.",
   "reloadMultiplier": 0.0,
   "healthMultiplier":0.5,
-  "effect": "none"
+  "effect": "railTrail"
 }
