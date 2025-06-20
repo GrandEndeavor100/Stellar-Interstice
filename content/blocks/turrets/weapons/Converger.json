@@ -13,6 +13,15 @@
   "status": "hackeffect",
   "rotateSpeed": 15,
   "hasPower": true,
+"shoot": {
+  "type":"ShootBarrel",
+"shots":4,
+"firstShotDelay":0,
+"barrels":[0,0,45,
+0,0,135,
+0,0,225,
+0,0,315]
+},
   "consumes": {
     "power": 4
   },
