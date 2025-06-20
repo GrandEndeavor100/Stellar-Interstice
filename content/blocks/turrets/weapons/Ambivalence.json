@@ -2,7 +2,7 @@
   "type": "PowerTurret",
   "health": 1000,
   "name": "Ambivalence",
-  "description": "Releases two dipole  lines of lighting covering a medium distance.",
+  "description": "[cyan] Experimental turret that releases two dipole  lines of lighting covering a medium distance.",
   "size": 2,
   "range": 200,
   "reload": 120,
