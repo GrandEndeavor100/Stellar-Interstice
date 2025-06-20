@@ -1,6 +1,6 @@
 {
   "name": "Paradox",
-  "description":"To understand one might need to overcome several paradoxes. Nullifies offensive mechanisms of the target.",
+  "description":"A paradox of offence where the reloading speed is reduced to 0 but damage level is tripled. Nullifies offensive mechanisms of the target.",
   "reloadMultiplier": 0.0,
   "damageMultiplier":3.0,
   "effect": "randLifeSpark"
