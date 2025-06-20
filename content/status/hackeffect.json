@@ -4,7 +4,7 @@
   "color": "5ECBFF",
   "reapply": true,
   "localizedName": "Hack Effect",
-  "description": "Hacks enemy weapon systems,disabling them in the process. [green]Note: Trial was a success.",
+  "description": "Hacks enemy weapon systems,disabling them in the process. [yellow]Note: Trials are ongoing.",
   "effects": [
     {
       "type": "custom",
