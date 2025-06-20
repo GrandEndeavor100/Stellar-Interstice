@@ -1,0 +1,9 @@
+{
+  "name": "[green]Lucky",
+  "description":"Power where destiny aligns with your purpose.",
+  "reloadMultiplier": 2.0,
+  "damageMultiplier":2.0,
+  "speedMultiplier":20.0,
+  "healthMultiplier":30.0,
+  "effect": "titanExplosionLarge"
+}
