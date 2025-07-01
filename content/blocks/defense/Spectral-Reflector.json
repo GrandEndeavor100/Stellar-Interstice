@@ -1,10 +1,11 @@
 {
   "name": "Spectral-Reflector",
-  "description": "Relfects dicrete energy packets incident on it. The trajectory of the reflected packet follows the laws of optical reflection. Creates an optical magnification illusion for its immediate locality.",
+  "description": "Relfects dicrete energy packets incident on it. The trajectory of the reflected packet follows the laws of optical reflection. Creates an optical magnification illusion for its immediate locality.[yellow]Note: Can float on water or other liquids.",
   "type": "Wall",
   "insulated": false,
   "absorbLasers": false,
   "flashHit": true,
+"placeableLiquid":true,
   "chanceDeflect":780,
   "health": 2000,
   "size": 3,
