@@ -7,7 +7,7 @@
 "requirements": [
 { "item":"Logic-Zero","amount":100}
 ],
-"size": 1,
+"size": 2,
 "solid": false,
 "category": "defense"
 } 
