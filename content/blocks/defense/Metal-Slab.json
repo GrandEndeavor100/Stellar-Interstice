@@ -8,6 +8,6 @@
 { "item":"Metal-Cannon","amount":6}
 ],
 "size": 2,
-"solid": true,
+"solid": false,
 "category": "defense"
 } 
