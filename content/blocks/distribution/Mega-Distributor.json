@@ -1,7 +1,7 @@
 {
 "name": "Mega Distributor",
 "type":"Router",
-"description": "More advanced distribution logistics.(This name consists of 59 zeores and 61 Ones in binary format).",
+"description": "Provides you with more advanced distribution logistics.[yellow]Note:This name consists of 59 zeroes and 61 Ones in binary format.",
 "category": "distribution",
 "health":6000,
 "itemCapacity":6,
