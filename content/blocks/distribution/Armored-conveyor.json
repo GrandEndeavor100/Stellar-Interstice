@@ -1,10 +1,11 @@
 {
-    "type": "ArmoredConveyor",
+    "type": "Conveyor",
 	"name":"Logic Pipeline",
-	"description":"A heavily armored conveyor",
+	"description":"Can be placed on liquid tiles.[yellow]Tip:Build them together and you can create a new path to pass through the ocean for ground units.",
     "category": "distribution",
     "health": 400,
     "speed": 0.03,
+"placeableLiquid":true,
     "research": "conveyor",
     "requirements": [
         { "item": "Logic-Zero", "amount": 2 },
