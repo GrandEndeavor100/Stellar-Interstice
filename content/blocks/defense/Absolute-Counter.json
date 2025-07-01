@@ -5,7 +5,7 @@
   "insulated": true,
   "absorbLasers": false,
   "flashHit": true,
-  "lightningChance": 1.0,
+  "lightningChance": 2.0,
   "lightningDamage": 400,
   "lightningLength": 80,
   "health": 4000,
