@@ -1,6 +1,6 @@
 {
 "type": "Wall",
-"name":"Lucid-Mega",
+"name":"[blue]Lucid-Mega",
 "description":"A  transparent or colourless invisible slab. Can be targetted by enemies.",
 "health": 600,
 "flashHit": true,
