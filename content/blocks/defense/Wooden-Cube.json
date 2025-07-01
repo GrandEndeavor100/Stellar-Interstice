@@ -4,6 +4,7 @@
 "description":"A dense cube made from wood.",
 "health": 400,
 "flashHit": true,
+"placeableLiquid":true,
 "requirements": [
 { "item":"Wood-Log","amount":4}
 ],
