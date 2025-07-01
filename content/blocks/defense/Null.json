@@ -8,6 +8,6 @@
 { "item":"Logic-Zero","amount":0}
 ],
 "size": 2,
-"solid": false,
+"solid": true,
 "category": "defense"
 } 
