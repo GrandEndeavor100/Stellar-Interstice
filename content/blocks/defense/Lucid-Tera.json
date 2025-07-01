@@ -1,6 +1,6 @@
 {
 "type": "Wall",
-"name":"Lucid-Tera",
+"name":"[red]Lucid-Tera",
 "description":"A  transparent or colourless invisible slab. Can be targetted by enemies.",
 "health": 1000,
 "flashHit": false,
