@@ -1,7 +1,7 @@
 {
 "type": "Wall",
 "name":"Wooden Cube",
-"description":"A dense cube made from wood.",
+"description":"A dense cube made from wood.Best for water defence.[yellow]Note: Can float on water or other liquids.",
 "health": 400,
 "flashHit": true,
 "placeableLiquid":true,
