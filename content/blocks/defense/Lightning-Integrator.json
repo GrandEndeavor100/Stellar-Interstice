@@ -1,11 +1,10 @@
 {
   "name": "Lightning Integrator",
-  "description": "Composite tech wall composed of a deflector,lighting inducer and lightning absorber.",
+  "description": "Composite tech wall composed of a lighting inducer and lightning absorber.",
   "type": "Wall",
   "insulated": true,
   "absorbLasers": true,
   "flashHit": true,
-  "chanceDeflect":200,
   "lightningChance": 0.80,
   "lightningDamage": 20,
   "lightningLength": 60,
