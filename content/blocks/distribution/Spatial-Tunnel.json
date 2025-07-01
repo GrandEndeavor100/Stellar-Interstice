@@ -6,6 +6,7 @@
     "health": 400,
 "displayedSpeed":9,
     "speed": 100,
+"placeableLiquid":true,
 "research": "conveyor",
     "requirements": [
         { "item": "Logic-Zero", "amount": 10 },
