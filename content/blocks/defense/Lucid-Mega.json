@@ -2,7 +2,7 @@
 "type": "Wall",
 "name":"Lucid-Mega",
 "description":"A  transparent or colourless invisible slab. Can be targetted by enemies.",
-"health": 900,
+"health": 600,
 "flashHit": true,
 "requirements": [
 { "item":"Logic-Zero","amount":100}
