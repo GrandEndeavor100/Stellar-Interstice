@@ -1,7 +1,7 @@
 {
     "type": "ArmoredConveyor",
-	"name":"Spatial Tunnel",
-	"description": "An tunnel within the fabric of space that cut open a new pathway. Can be used as loops to trap enemies."
+	"name":"[violet]Spatial Tunnel",
+	"description": "An tunnel within the fabric of space that cut open a new pathway.[yellow] Can be used as loops to trap enemies or used to drift the enemy by a certain distance.[green]Tip: Place them near water surfaces and when enemy units step on them they will be drifted into the water."
     "category": "distribution",
     "health": 400,
     "speed": 100,
