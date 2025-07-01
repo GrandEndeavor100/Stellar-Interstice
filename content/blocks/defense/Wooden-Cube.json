@@ -9,6 +9,6 @@
 { "item":"Wood-Log","amount":4}
 ],
 "size": 2,
-"solid": true,
+"solid": false,
 "category": "defense"
 } 
