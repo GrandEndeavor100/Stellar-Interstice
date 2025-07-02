@@ -1,7 +1,7 @@
 {
   "type": "TractorBeamTurret",
   "name": "Retractor",
-  "description": "A tractor beam used to retract units.",
+  "description": "A tractor beam used to retract units. [green]Tip: Build on a water or lava tile and you can retract enemy units to sink in those liquids.",
   "size": 2,
   "force": 600,
   "targetAir": true,
