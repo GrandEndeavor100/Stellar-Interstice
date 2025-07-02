@@ -1,8 +1,7 @@
 {
 "type": "Wall",
 "name":"Wooden Cube",
-"description":"A dense cube made from wood.Best for water defence.[yellow]Note: Can float on water or other liquids and therefore prevents movements of units through it.
-[green]Tip: Use it as barricades either to prevent units from falling into water when launched by spatial tunnel or when launching  enemy units using spatial tunnel into water to make sure they sink when they strike this wall.",
+"description":"A dense cube made from wood.Best for water defence.[yellow]Note: Can float on water or other liquids and therefore prevents movements of units through it.[green]Tip: Use it as barricades either to prevent units from falling into water when launched by spatial tunnel or when launching  enemy units using spatial tunnel into water to make sure they sink when they strike this wall.",
 "health": 400,
 "flashHit": true,
 "placeableLiquid":true,
