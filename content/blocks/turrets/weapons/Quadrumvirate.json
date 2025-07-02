@@ -27,11 +27,11 @@
 },
 "shootType": {
   "type": "ContinuousLaserBulletType",
-  "damage": 1,
+  "damage": 2,
   "lifetime": 150,
   "fadeTime": 10,
-  "length": 206,
-  "width": 3.6,
+  "length": 80,
+  "width": 3.0,
   "colors":["ff0000","ffffff","ff0088"]
 },
 "category": "turret",
