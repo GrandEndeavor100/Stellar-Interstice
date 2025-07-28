@@ -11,11 +11,11 @@
 "abilities": [
   {
     "type": "ShieldRegenFieldAbility",
-    "radius": 60,        // Shield radius in tiles
-    "regen" : 20,          // Shield regeneration per tick
-    "cooldown" : 120,       // Shield recharge cooldown in ticks
-    "max" : 200,           // Maximum shield amount
-    "cooldownTime" : 60    // Time between shield bursts (optional, if supported)
+    "radius": 60,        
+    "regen" : 20,         
+    "cooldown" : 120,       
+    "max" : 200,           
+    "cooldownTime" : 60    
   }
 ]
 
