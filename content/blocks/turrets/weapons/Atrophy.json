@@ -8,7 +8,7 @@
         "size": 3,
         "inaccuracy": 0,
         "reload": 20,
-        "shootCone": 20,
+        "shootCone": 300,
         "rotateSpeed": 100,
         "range": 800,
         "ammoTypes": {
@@ -25,8 +25,8 @@
                         "homingRange": 0,
 " pierce":true,
                            "sprite":"circle-bullet",
-"frontColor": "03b1fc",
- "backColor": " 036ffc",
+"frontColor": "000000",
+ "backColor": "03b1fc",
  "lightColor": "000000",
                         "hitEffect": {
                           "type": "MultiEffect",
