@@ -1,7 +1,7 @@
 {
 	"type": "ConsumeGenerator",
 	"name": "Origin Perpetuum",
-	"description": "A micro perpetual  energy source that is self sustaining.",
+	"description": "A micro perpetual  energy source that is self sustaining. [yellow]Note:The data for this is encoded in an ancient manuscript written by a primitive civilization but how they came to know is still[/yellow] [orange]unknown.[/orange]",
 	"size": 1,
 	"health":100,
 	"powerProduction": 0.6,
