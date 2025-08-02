@@ -1,7 +1,7 @@
 {
 	"type": "NuclearReactor",
 	"name": "Trigger",
-	"description": "A device that explodes in a minor manner to ignite damage and to activate higher order bombs like spore bomb, antimatter bomb etc.[red] Warning:The activation process starts either when you insert activation key to it but you can prevent it by supplying water to it. But the moment the water is depleted it can still explode[/red].",
+	"description": "A device that explodes in a minor manner to ignite damage and to activate higher order bombs like spore bomb, antimatter bomb etc.[red] Warning:The activation process starts  when you insert activation key to it but you can prevent it by supplying water to it. But the moment the water is depleted it can still explode[/red].",
 	"size": 2,
 	"explosionShake":6,
 	"hasPower":true,
