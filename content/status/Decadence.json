@@ -1,0 +1,7 @@
+{
+  "name": "[blue]Decadence[/blue]",
+  "description":"Degrades enemy speed and rate of fire by shutting down crictical subsystems.",
+  "speedMultiplier": 0.2,
+  "reloadMultiplier": 0.2,
+  "effect": "freezing"
+}
