@@ -172,18 +172,18 @@
           "colorTo": "99ff33"
                         }]}
                 },
-"": {
-                        "speed": 8.6,
-                        "damage": 30,
-                        "knockback": 300,
-                        "width": 7,
-                        "height": 9,
-"spin":10,
-                        "status":"Perception",
+"Spore-Frost": {
+                        "speed": 9.0,
+                        "damage": 70,
+                        "knockback": 2,
+                        "width": 15,
+                        "height": 15,
+"spin":12,
+                        "status":"Deep-Frost",
                         "ammoMultiplier": 1,
-                        "frontColor": "00994d",
-            "backColor": "99ff33",
-                        "lightColor": "000099",
+                        "frontColor": "5a42f5",
+            "backColor": "5a42f5",
+                        "lightColor": "2c71d1",
                         "hitEffect": {
                           "type": "MultiEffect",
                           "lifetime": 70,
