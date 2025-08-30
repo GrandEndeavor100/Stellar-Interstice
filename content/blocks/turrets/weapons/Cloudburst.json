@@ -91,6 +91,126 @@
           "colorFrom": "00994d"
           "colorTo": "99ff33"
                         }]}
+                },
+"liquid-spore-flux": {
+                        "speed": 2.0,
+                        "damage": 60,
+                        "knockback": 10,
+                        "width": 10,
+                        "height": 10,
+"spin":1,
+                        "status":"sapped",
+                        "ammoMultiplier": 1,
+                        "frontColor": "e042f5",
+            "backColor": "e042f5",
+                        "lightColor": "e042f5",
+                        "hitEffect": {
+                          "type": "MultiEffect",
+                          "lifetime": 70,
+                        "effects":[
+                        {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 20,
+          "lifetime": 15,
+          "length": 20,
+          "strokeFrom": 4,
+          "strokeTo": 2,
+          "lenFrom": 4,
+          "lenTo": 0,
+          "colorFrom": "e042f5",
+          "colorTo": "e042f5"
+        },
+                {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "lifetime": 30,
+          "length": 20,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "colorFrom": "00994d"
+          "colorTo": "99ff33"
+                        }]}
+                },
+"liquid-spore-slag": {
+                        "speed": 20,
+                        "damage": 20,
+                        "knockback": 20,
+                        "width": 12,
+                        "height": 9,
+"spin":10,
+                        "status":"melting",
+                        "ammoMultiplier": 1,
+                        "frontColor": "f58742",
+            "backColor": "f58742",
+                        "lightColor": "f54272",
+                        "hitEffect": {
+                          "type": "MultiEffect",
+                          "lifetime": 70,
+                        "effects":[
+                        {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 100,
+          "lifetime": 15,
+          "length": 20,
+          "strokeFrom": 4,
+          "strokeTo": 2,
+          "lenFrom": 4,
+          "lenTo": 0,
+          "colorFrom": "f54272",
+          "colorTo": "b3b3ff"
+        },
+                {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "lifetime": 30,
+          "length": 20,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "colorFrom": "00994d"
+          "colorTo": "99ff33"
+                        }]}
+                },
+"": {
+                        "speed": 8.6,
+                        "damage": 30,
+                        "knockback": 300,
+                        "width": 7,
+                        "height": 9,
+"spin":10,
+                        "status":"Perception",
+                        "ammoMultiplier": 1,
+                        "frontColor": "00994d",
+            "backColor": "99ff33",
+                        "lightColor": "000099",
+                        "hitEffect": {
+                          "type": "MultiEffect",
+                          "lifetime": 70,
+                        "effects":[
+                        {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 20,
+          "lifetime": 15,
+          "length": 20,
+          "strokeFrom": 4,
+          "strokeTo": 2,
+          "lenFrom": 4,
+          "lenTo": 0,
+          "colorFrom": "000099",
+          "colorTo": "b3b3ff"
+        },
+                {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "lifetime": 30,
+          "length": 20,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "colorFrom": "00994d"
+          "colorTo": "99ff33"
+                        }]}
                 }
         }
         "requirements": [
