@@ -31,14 +31,14 @@
                         {
           "type": "ParticleEffect",
           "line": true,
-          "particles": 20,
+          "particles": 200,
           "lifetime": 15,
           "length": 20,
           "strokeFrom": 4,
           "strokeTo": 2,
           "lenFrom": 4,
           "lenTo": 0,
-          "colorFrom": "000099",
+          "colorFrom": "582cd1",
           "colorTo": "b3b3ff"
         },
                 {
@@ -211,7 +211,90 @@
           "colorFrom": "00994d"
           "colorTo": "99ff33"
                         }]}
-                }
+                },
+"Void-Fluid": {
+                        "speed": 30,
+                        "damage": 100,
+                        "knockback": 500,
+                        "width": 20,
+                        "height": 20,
+"spin":80,
+                        "status":"Frozen-Time",
+                        "ammoMultiplier": 1,
+                        "frontColor": "12b878",
+            "backColor": "5a42f5",
+                        "lightColor": "582cd1",
+                        "hitEffect": {
+                          "type": "MultiEffect",
+                          "lifetime": 70,
+                        "effects":[
+                        {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 300,
+          "lifetime": 15,
+          "length": 20,
+          "strokeFrom": 4,
+          "strokeTo": 2,
+          "lenFrom": 4,
+          "lenTo": 0,
+          "colorFrom": "000099",
+          "colorTo": "b3b3ff"
+        },
+                {
+          "type": "ParticleEffect",
+          "particles": 100,
+          "lifetime": 30,
+          "length": 20,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "colorFrom": "00994d"
+          "colorTo": "99ff33"
+                        }]}
+                },
+"Confined-Flame": {
+                        "speed": 10.0,
+                        "damage": 100,
+                        "knockback": 2,
+                        "width": 18,
+                        "height": 18,
+"spin":56,
+                        "status":"Blue-Flame",
+                        "ammoMultiplier": 1,
+                        "frontColor": "b81218",
+            "backColor": "b81218",
+                        "lightColor": "000000",
+                        "hitEffect": {
+                          "type": "MultiEffect",
+                          "lifetime": 70,
+                        "effects":[
+                        {
+          "type": "ParticleEffect",
+          "line": true,
+          "particles": 20,
+          "lifetime": 15,
+          "length": 20,
+          "strokeFrom": 4,
+          "strokeTo": 2,
+          "lenFrom": 4,
+          "lenTo": 0,
+          "colorFrom": "000099",
+          "colorTo": "b3b3ff"
+        },
+                {
+          "type": "ParticleEffect",
+          "particles": 10,
+          "lifetime": 30,
+          "length": 20,
+          "sizeFrom": 4,
+          "sizeTo": 0,
+          "colorFrom": "00994d"
+          "colorTo": "99ff33"
+                        }]}
+                },
+
+
+
         }
         "requirements": [
         {
