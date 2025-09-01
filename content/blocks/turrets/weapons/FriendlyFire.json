@@ -1,0 +1,27 @@
+{
+  "type": "ItemTurret",
+  "name": "friendly-fire-turret",
+  "description": "A turret that can damage friendly structures.",
+  "health": 200,
+  "size": 2,
+  "range": 100,
+  "shootCone": 15,
+  "targetAir": false,
+  "targetGround": true,
+  "ammoTypes": {
+    "copper": {
+      "type": "BasicBulletType",
+      "damage": 25,
+      "speed": 4,
+      "lifetime": 25,
+      "collidesTeam": true,
+      "collidesGround": true,
+      "collidesTiles": true
+    }
+  },
+  "requirements": [
+    {"item": "copper", "amount": 50},
+    {"item": "lead", "amount": 30}
+  ],
+  "category": "turret"
+}
