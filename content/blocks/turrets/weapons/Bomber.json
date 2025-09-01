@@ -19,7 +19,7 @@
                         "height": 9,
                         "shootEffect": "explosion",
                         "status":"Blue-Flame",
-                        "lifetime":400,
+                        "lifetime":40,
                         "sprite":"circle-bullet",
                         "ammoMultiplier": 1,
                         "frontColor": "115852",
