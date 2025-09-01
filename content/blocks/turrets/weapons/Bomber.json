@@ -1,6 +1,6 @@
 {
         "type": "ItemTurret",
-        "name": "Plasma Emitter",
+        "name": "Bomber",
         "description": "Proliferates plasma orbs at high velocity. Has a self-inducing perturbation that perpetuates over large distances outlasting its physical range.",
         "health":1000,
         "targetAir": true,
