@@ -1,0 +1,27 @@
+{
+  "type": "ItemTurret",
+  "name": "healing-cannon",
+  "description": "Fires healing projectiles at allies.",
+  "health": 300,
+  "size": 2,
+  "range": 120,
+  "shootCone": 30,
+  "targetAir": true,
+  "targetGround": true,
+  "targetHealing": true,
+  "ammoTypes": {
+    "plastanium": {
+      "type": "BasicBulletType",
+      "damage": -15,
+      "healPercent": 8,
+      "collidesTeam": true,
+      "speed": 3,
+      "lifetime": 40
+    }
+  },
+  "requirements": [
+    {"item": "plastanium", "amount": 80},
+    {"item": "silicon", "amount": 40}
+  ],
+  "category": "turret"
+}
