@@ -8,7 +8,7 @@
   "shootCone": 30,
   "targetAir": true,
   "targetGround": true,
-  "targetHealing": true,
+  "targetHealing": false,
   "ammoTypes": {
     "plastanium": {
       "type": "BasicBulletType",
