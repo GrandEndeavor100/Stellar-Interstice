@@ -12,8 +12,8 @@
   "ammoTypes": {
     "plastanium": {
       "type": "BasicBulletType",
-      "damage": 20,
-      "healPercent": 0,
+      "damage": -20,
+      "healPercent": -20,
       "collidesTeam": true,
       "speed": 3,
       "lifetime": 40
