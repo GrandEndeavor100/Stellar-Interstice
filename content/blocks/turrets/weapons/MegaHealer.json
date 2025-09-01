@@ -1,0 +1,16 @@
+{
+  "type": "RepairTurret",
+  "name": "heal-turret",
+  "description": "A turret that repairs nearby units and blocks.",
+  "health": 200,
+  "size": 2,
+  "repairSpeed": 2.0,
+  "repairRadius": 80,
+  "powerUse": 1.5,
+  "requirements": [
+    {"item": "copper", "amount": 50},
+    {"item": "lead", "amount": 30}
+  ],
+  "category": "turret",
+  "research": "mender"
+}
